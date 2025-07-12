@@ -25,7 +25,7 @@
             <meta name="viewport" content="width=device-width,
                 initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
             <style>
-                #map_7e8143e5ec53ed20d52110018366933a {
+                #map_537f75a488344de131d3521768a45a03 {
                     position: relative;
                     width: 100.0%;
                     height: 100.0%;
@@ -226,14 +226,14 @@
     <button id="timeline-btn" class="timeline-btn" onclick="playTimeline()">▶️ Play Timeline</button>
     
     
-            <div class="folium-map" id="map_7e8143e5ec53ed20d52110018366933a" ></div>
+            <div class="folium-map" id="map_537f75a488344de131d3521768a45a03" ></div>
         
 </body>
 <script>
     
     
-            var map_7e8143e5ec53ed20d52110018366933a = L.map(
-                "map_7e8143e5ec53ed20d52110018366933a",
+            var map_537f75a488344de131d3521768a45a03 = L.map(
+                "map_537f75a488344de131d3521768a45a03",
                 {
                     center: [50.32877, -105.5469],
                     crs: L.CRS.EPSG3857,
@@ -247,375 +247,375 @@
 
         
     
-            var tile_layer_5b57695edf13d0b6e540e82fd03833d7 = L.tileLayer(
+            var tile_layer_e41daffd98e14288b412d53092ed57c8 = L.tileLayer(
                 "https://server.arcgisonline.com/ArcGIS/rest/services/World_Imagery/MapServer/tile/{z}/{y}/{x}",
                 {"attribution": "Esri", "detectRetina": false, "maxZoom": 18, "minZoom": 0, "noWrap": false, "opacity": 1, "subdomains": "abc", "tms": false}
             );
         
     
-            tile_layer_5b57695edf13d0b6e540e82fd03833d7.addTo(map_7e8143e5ec53ed20d52110018366933a);
+            tile_layer_e41daffd98e14288b412d53092ed57c8.addTo(map_537f75a488344de131d3521768a45a03);
         
     
-            var tile_layer_340465e07f26900be9f4998d7e55cb56 = L.tileLayer(
+            var tile_layer_c950a06dce9cde1d6bb309234f0a9c7d = L.tileLayer(
                 "https://tile.openstreetmap.org/{z}/{x}/{y}.png",
                 {"attribution": "OpenStreetMap", "detectRetina": false, "maxZoom": 18, "minZoom": 0, "noWrap": false, "opacity": 1, "subdomains": "abc", "tms": false}
             );
         
     
-            var layer_control_0949221d783ba256c66645c39718bcdc_layers = {
+            var layer_control_528ce9583f874034ee205560c902396a_layers = {
                 base_layers : {
-                    "Esri Satellite" : tile_layer_5b57695edf13d0b6e540e82fd03833d7,
-                    "OpenStreetMap" : tile_layer_340465e07f26900be9f4998d7e55cb56,
+                    "Esri Satellite" : tile_layer_e41daffd98e14288b412d53092ed57c8,
+                    "OpenStreetMap" : tile_layer_c950a06dce9cde1d6bb309234f0a9c7d,
                 },
                 overlays :  {
                 },
             };
-            let layer_control_0949221d783ba256c66645c39718bcdc = L.control.layers(
-                layer_control_0949221d783ba256c66645c39718bcdc_layers.base_layers,
-                layer_control_0949221d783ba256c66645c39718bcdc_layers.overlays,
+            let layer_control_528ce9583f874034ee205560c902396a = L.control.layers(
+                layer_control_528ce9583f874034ee205560c902396a_layers.base_layers,
+                layer_control_528ce9583f874034ee205560c902396a_layers.overlays,
                 {"autoZIndex": true, "collapsed": true, "position": "topright"}
-            ).addTo(map_7e8143e5ec53ed20d52110018366933a);
+            ).addTo(map_537f75a488344de131d3521768a45a03);
 
         
     
-            ant_path_289419530a0bc69138141e0f7803fcad = L.polyline.antPath(
+            ant_path_77a007fd3d4eb5a1275a870352b29a78 = L.polyline.antPath(
               [[50.32877, -105.5469], [50.32872, -105.5468], [50.32859, -105.5465], [50.32854, -105.5464], [50.32822, -105.5461], [50.32813, -105.5459], [50.32798, -105.5456], [50.32792, -105.5455], [50.3278, -105.5452], [50.32774, -105.5451], [50.32756, -105.5445], [50.32752, -105.5444], [50.32749, -105.5443], [50.32744, -105.5441], [50.32739, -105.5438], [50.32736, -105.5437], [50.3273, -105.5434], [50.32727, -105.5432], [50.32723, -105.5431], [50.3272, -105.543], [50.3271, -105.5427], [50.32705, -105.5426], [50.327, -105.5424], [50.32695, -105.5423], [50.32686, -105.542], [50.32683, -105.5419], [50.32678, -105.5418], [50.32672, -105.5416], [50.32669, -105.5415], [50.32663, -105.5413], [50.32654, -105.5411], [50.32651, -105.541], [50.32648, -105.5409], [50.32641, -105.5407], [50.32637, -105.5406], [50.32631, -105.5405], [50.32624, -105.5403], [50.32619, -105.5401], [50.32612, -105.5399], [50.32607, -105.5398], [50.32601, -105.5396], [50.32596, -105.5395], [50.32592, -105.5393], [50.32587, -105.5392], [50.32583, -105.5391], [50.32577, -105.5389], [50.32573, -105.5388], [50.32567, -105.5386], [50.32564, -105.5385], [50.32559, -105.5384], [50.32555, -105.5383], [50.32548, -105.5381], [50.32539, -105.5378], [50.32533, -105.5376], [50.32529, -105.5375], [50.32522, -105.5373], [50.32515, -105.5371], [50.32505, -105.5369], [50.32498, -105.5367], [50.32494, -105.5366], [50.32487, -105.5364], [50.3248, -105.5362], [50.32471, -105.5359], [50.32467, -105.5357], [50.32463, -105.5356], [50.32467, -105.5353], [50.32483, -105.5352], [50.33494, -105.5353], [50.3352, -105.5354], [50.33539, -105.5355], [50.33564, -105.5356], [50.3357, -105.5357], [50.33583, -105.5358], [50.33602, -105.536], [50.33614, -105.5361], [50.33624, -105.5362], [50.3363, -105.5363], [50.3364, -105.5364], [50.33653, -105.5366], [50.3366, -105.5367], [50.33664, -105.5368], [50.3367, -105.5369], [50.33676, -105.537], [50.33682, -105.5371], [50.33687, -105.5373], [50.33695, -105.5375], [50.33701, -105.5376], [50.33704, -105.5377], [50.33709, -105.5378], [50.33718, -105.5381], [50.3373, -105.5383], [50.33734, -105.5384], [50.33738, -105.5385], [50.33746, -105.5387], [50.33756, -105.5389], [50.3376, -105.539], [50.33768, -105.5392], [50.33772, -105.5393], [50.3378, -105.5395], [50.33784, -105.5396], [50.33791, -105.5398], [50.33794, -105.5399], [50.33798, -105.54], [50.33806, -105.5402], [50.33813, -105.5404], [50.33817, -105.5405], [50.33821, -105.5406], [50.33827, -105.5408], [50.33832, -105.541], [50.33837, -105.5413], [50.33841, -105.5414], [50.33845, -105.5417], [50.33849, -105.5423], [50.33852, -105.5463], [50.33849, -105.5467], [50.33855, -105.5468], [50.33851, -105.548], [50.33848, -105.5485], [50.33844, -105.5502], [50.33839, -105.5504], [50.33835, -105.5505], [50.33829, -105.5506], [50.33822, -105.5507], [50.33812, -105.5508], [50.33809, -105.5509], [50.33802, -105.551], [50.33791, -105.5512], [50.33781, -105.5513], [50.33777, -105.5514], [50.3377, -105.5515], [50.33766, -105.5516], [50.33757, -105.5517], [50.33753, -105.5518], [50.33756, -105.5527], [50.3376, -105.5533], [50.33764, -105.5538], [50.33767, -105.5541], [50.33772, -105.5542], [50.33778, -105.5543], [50.33796, -105.5544], [50.338, -105.5546], [50.33805, -105.5552], [50.33809, -105.5553], [50.33821, -105.5554], [50.33824, -105.5555], [50.33827, -105.5557], [50.33831, -105.5566], [50.33834, -105.5569], [50.33838, -105.5571], [50.33841, -105.5572], [50.33849, -105.5573], [50.33863, -105.5574], [50.33891, -105.5573], [50.33895, -105.5572], [50.33903, -105.5571], [50.33907, -105.557], [50.33914, -105.5568], [50.33922, -105.5567], [50.3393, -105.5565], [50.33943, -105.5563], [50.3395, -105.5562], [50.33953, -105.5561], [50.3396, -105.556], [50.33953, -105.5557], [50.33946, -105.5556], [50.33942, -105.5555], [50.33933, -105.5552], [50.33929, -105.5551], [50.33918, -105.5548], [50.33912, -105.5547], [50.33902, -105.5543], [50.33897, -105.5542], [50.33893, -105.554], [50.33885, -105.5537], [50.33878, -105.5533], [50.33875, -105.5531], [50.33871, -105.5528], [50.33868, -105.552], [50.33871, -105.5498], [50.33868, -105.5375], [50.33864, -105.5355], [50.3386, -105.5348], [50.33864, -105.5346], [50.3387, -105.5345], [50.33875, -105.5344], [50.33897, -105.5343], [50.33931, -105.5342], [50.33973, -105.5341], [50.34024, -105.534], [50.34042, -105.5339], [50.34079, -105.5338], [50.34119, -105.5337], [50.3416, -105.5336], [50.34181, -105.5335], [50.34224, -105.5334], [50.34289, -105.5332], [50.34335, -105.5331], [50.34383, -105.533], [50.34406, -105.5329], [50.34452, -105.5328], [50.34475, -105.5327], [50.34523, -105.5326], [50.34546, -105.5325], [50.34569, -105.5324], [50.3464, -105.5322], [50.34663, -105.5321], [50.34687, -105.532], [50.34734, -105.5319], [50.34757, -105.5318], [50.34804, -105.5317], [50.34902, -105.5316], [50.35103, -105.5317], [50.3518, -105.5318], [50.35205, -105.5319], [50.35257, -105.532], [50.35283, -105.5321], [50.35387, -105.5323], [50.35413, -105.5324], [50.35492, -105.5325], [50.35517, -105.5326], [50.35568, -105.5327], [50.35593, -105.5328], [50.35643, -105.5329], [50.35693, -105.533], [50.3577, -105.5331], [50.35796, -105.5332], [50.35822, -105.5333], [50.35874, -105.5334], [50.359, -105.5335], [50.35953, -105.5336], [50.36033, -105.5338], [50.36059, -105.5339], [50.36163, -105.5341], [50.36189, -105.5342], [50.36263, -105.5343], [50.36287, -105.5344], [50.36335, -105.5345], [50.36359, -105.5346], [50.36405, -105.5347], [50.36451, -105.5348], [50.3652, -105.5349], [50.36542, -105.535], [50.36607, -105.5351], [50.36628, -105.5352], [50.36672, -105.5353], [50.36737, -105.5354], [50.36758, -105.5355], [50.36841, -105.5357], [50.36882, -105.5358], [50.36944, -105.5359], [50.36964, -105.536], [50.37026, -105.5361], [50.37087, -105.5362], [50.37107, -105.5363], [50.3717, -105.5364], [50.37192, -105.5365], [50.37259, -105.5366], [50.37281, -105.5367], [50.37347, -105.5368], [50.37368, -105.5369], [50.37431, -105.537], [50.37514, -105.5369], [50.37579, -105.5368], [50.37601, -105.5367], [50.37622, -105.5365], [50.37663, -105.5363], [50.37682, -105.5362], [50.37701, -105.536], [50.3772, -105.5359], [50.37776, -105.5356], [50.37812, -105.5353], [50.3783, -105.5352], [50.37864, -105.535], [50.37881, -105.5349], [50.37897, -105.5348], [50.37929, -105.5345], [50.37942, -105.5343], [50.37965, -105.534], [50.37976, -105.5338], [50.38004, -105.5333], [50.38012, -105.5331], [50.3803, -105.5328], [50.38039, -105.5326], [50.38058, -105.5324], [50.38068, -105.5323], [50.38089, -105.5322], [50.38111, -105.5321], [50.38194, -105.532], [50.38304, -105.5319], [50.38494, -105.532], [50.38517, -105.5319], [50.38528, -105.532], [50.38541, -105.5319], [50.38642, -105.5318], [50.38654, -105.5317], [50.38678, -105.5315], [50.38691, -105.5314], [50.38715, -105.5312], [50.38727, -105.5311], [50.3874, -105.531], [50.38765, -105.5308], [50.38778, -105.5307], [50.38805, -105.5305], [50.38818, -105.5304], [50.38845, -105.5303], [50.38872, -105.5301], [50.38884, -105.53], [50.38907, -105.5298], [50.38926, -105.5297], [50.38947, -105.5296], [50.38959, -105.5297], [50.38967, -105.53], [50.38971, -105.5303], [50.38974, -105.5313], [50.38978, -105.5345], [50.38982, -105.5346], [50.39048, -105.5347], [50.39062, -105.5346], [50.39201, -105.5347], [50.39238, -105.5346], [50.39244, -105.5347], [50.39254, -105.5348], [50.39257, -105.535], [50.3926, -105.5354], [50.39264, -105.5367], [50.39031, -105.5571], [50.39002, -105.557], [50.38926, -105.5569], [50.38777, -105.557], [50.38707, -105.5571], [50.38612, -105.5572], [50.38498, -105.557], [50.38454, -105.5571], [50.38385, -105.557], [50.38331, -105.5569], [50.38308, -105.5568], [50.38311, -105.5567], [50.38306, -105.5566], [50.38301, -105.5565], [50.38226, -105.5566], [50.38176, -105.5567], [50.38164, -105.5568], [50.38144, -105.557], [50.38116, -105.5569], [50.37936, -105.5568], [50.377, -105.5569], [50.37678, -105.557], [50.37644, -105.5571], [50.37621, -105.5572], [50.37608, -105.5573], [50.37582, -105.5574], [50.37529, -105.5575], [50.37422, -105.5574], [50.37405, -105.5573], [50.37337, -105.5572], [50.37246, -105.5571], [50.36888, -105.5572], [50.36722, -105.5573], [50.36453, -105.5574], [50.36123, -105.5575], [50.35555, -105.5576], [50.34865, -105.5577], [50.34544, -105.5578], [50.34291, -105.5577], [50.34166, -105.5576], [50.34128, -105.5575], [50.34103, -105.5574], [50.34079, -105.5573], [50.34066, -105.5572], [50.34042, -105.557], [50.34031, -105.5569], [50.3401, -105.5567], [50.33993, -105.5565], [50.33986, -105.5564], [50.33975, -105.5562], [50.33967, -105.5561], [50.33955, -105.5562], [50.3395, -105.5563], [50.33946, -105.5564], [50.33942, -105.5565], [50.33937, -105.5566], [50.33927, -105.5568], [50.33916, -105.5569], [50.33912, -105.557], [50.33907, -105.5571], [50.33897, -105.5572], [50.33894, -105.5573], [50.33884, -105.5574], [50.33858, -105.5573], [50.33843, -105.5572], [50.33836, -105.5571], [50.33823, -105.557], [50.33813, -105.5569], [50.33795, -105.5568], [50.33777, -105.5567], [50.33766, -105.5566], [50.33762, -105.5565], [50.33767, -105.5561], [50.33775, -105.556], [50.33781, -105.5559], [50.33786, -105.5558], [50.3379, -105.5557], [50.33793, -105.5556], [50.33797, -105.5555], [50.33801, -105.5554], [50.33797, -105.5555], [50.33803, -105.5554], [50.33808, -105.5553], [50.3382, -105.5554], [50.33823, -105.5556], [50.33827, -105.5561], [50.33831, -105.5565], [50.33834, -105.5568], [50.33825, -105.557], [50.33785, -105.5571], [50.33756, -105.5572], [50.3376, -105.558], [50.33765, -105.5587], [50.33757, -105.5591], [50.33738, -105.5592], [50.33696, -105.5591], [50.33692, -105.559], [50.33689, -105.5584], [50.33685, -105.5577], [50.33681, -105.5575], [50.33677, -105.557], [50.33674, -105.5566], [50.33671, -105.5565], [50.33667, -105.5564], [50.33662, -105.5554], [50.33659, -105.5551], [50.33656, -105.5546], [50.33651, -105.5539], [50.33647, -105.5534], [50.33643, -105.5532], [50.3364, -105.5531], [50.33621, -105.5532], [50.33602, -105.5533], [50.33562, -105.5534], [50.3355, -105.5533], [50.33554, -105.5525], [50.33562, -105.5524], [50.33569, -105.5523], [50.33582, -105.5522], [50.33586, -105.5521], [50.33593, -105.552], [50.33683, -105.5506], [50.33687, -105.5505], [50.33683, -105.5506], [50.33678, -105.5507], [50.33672, -105.5508], [50.33665, -105.5509], [50.33655, -105.551], [50.33644, -105.5511], [50.3364, -105.5512], [50.33635, -105.5513], [50.33631, -105.5514], [50.33619, -105.5515], [50.33612, -105.5516], [50.33603, -105.5517], [50.33607, -105.5515], [50.3361, -105.5514], [50.33615, -105.5513], [50.3362, -105.5512], [50.33632, -105.5511], [50.33642, -105.551], [50.33648, -105.5509], [50.33652, -105.5508], [50.33656, -105.5506], [50.33661, -105.5505], [50.33664, -105.5506], [50.33661, -105.5507], [50.33652, -105.5508], [50.33649, -105.5509], [50.33641, -105.551], [50.33637, -105.5511], [50.33629, -105.5512], [50.3362, -105.5513], [50.33614, -105.5514], [50.33607, -105.5515], [50.33596, -105.5516], [50.33592, -105.5517], [50.33585, -105.5518], [50.33574, -105.5519], [50.33569, -105.5521], [50.33562, -105.5522], [50.33555, -105.5523], [50.33548, -105.5525], [50.33551, -105.5533], [50.33556, -105.5534], [50.33579, -105.5533], [50.33622, -105.5532], [50.33646, -105.5533], [50.33651, -105.5535], [50.33654, -105.5539], [50.33657, -105.5544], [50.33661, -105.5549], [50.33664, -105.5553], [50.33668, -105.5562], [50.33673, -105.5572], [50.33705, -105.5571], [50.33752, -105.557], [50.33755, -105.5571], [50.33761, -105.557], [50.33827, -105.5571], [50.33841, -105.5572], [50.3385, -105.5573], [50.33863, -105.5574], [50.3389, -105.5573], [50.33902, -105.5571], [50.33908, -105.557], [50.33914, -105.5569], [50.33924, -105.5568], [50.33929, -105.5567], [50.33938, -105.5565], [50.33942, -105.5564], [50.33952, -105.5563], [50.33958, -105.5562], [50.33963, -105.5561], [50.33968, -105.556], [50.33982, -105.5561], [50.34008, -105.5564], [50.34037, -105.5567], [50.34048, -105.5568], [50.3406, -105.5569], [50.34072, -105.557], [50.34099, -105.5572], [50.34114, -105.5573], [50.34144, -105.5574], [50.34207, -105.5575], [50.37287, -105.5576], [50.37337, -105.5577], [50.37354, -105.5578], [50.37388, -105.5579], [50.37457, -105.558], [50.37507, -105.5581], [50.37556, -105.558], [50.37586, -105.5579], [50.37611, -105.5578], [50.37644, -105.5577], [50.37677, -105.5576], [50.377, -105.5575], [50.38229, -105.5576], [50.38236, -105.5575], [50.38735, -105.5576], [50.38894, -105.5575], [50.40725, -105.5576], [50.41236, -105.5575], [50.41301, -105.5573], [50.41298, -105.5543], [50.41306, -105.5488], [50.41314, -105.5482], [50.41317, -105.548], [50.4132, -105.5476], [50.41324, -105.5469], [50.41328, -105.5451], [50.4132, -105.5442], [50.41314, -105.5436], [50.41309, -105.5432], [50.41301, -105.5428], [50.41297, -105.5425], [50.41289, -105.5421], [50.41285, -105.5418], [50.41278, -105.5413], [50.41269, -105.5405], [50.41263, -105.5396], [50.41266, -105.5371], [50.4127, -105.5362], [50.4128, -105.5361], [50.41288, -105.536], [50.41337, -105.5359], [50.41373, -105.536], [50.41377, -105.5362], [50.4138, -105.5361], [50.41394, -105.5362]],
               {"bubblingMouseEvents": true, "color": "cyan", "dashArray": [10, 20], "dashOffset": null, "delay": 700, "fill": false, "fillColor": "cyan", "fillOpacity": 0.2, "fillRule": "evenodd", "hardwareAcceleration": false, "lineCap": "round", "lineJoin": "round", "noClip": false, "opacity": 0.5, "paused": false, "pulseColor": "cyan", "reverse": false, "smoothFactor": 1.0, "stroke": true, "weight": 4}
-        ).addTo(map_7e8143e5ec53ed20d52110018366933a);
+        ).addTo(map_537f75a488344de131d3521768a45a03);
         
     
-            var marker_d131a890336e377c71992ecb34d9128a = L.marker(
+            var marker_2a50b2098308906f8c06a0caf22dc481 = L.marker(
                 [50.32877, -105.5469],
                 {}
-            ).addTo(map_7e8143e5ec53ed20d52110018366933a);
+            ).addTo(map_537f75a488344de131d3521768a45a03);
         
     
-            var icon_d5a0c57035486c12784e7cb69e0e6756 = L.AwesomeMarkers.icon(
+            var icon_68cbca6a0cb4873a790e63b94030c394 = L.AwesomeMarkers.icon(
                 {"extraClasses": "fa-rotate-0", "icon": "play", "iconColor": "white", "markerColor": "green", "prefix": "glyphicon"}
             );
-            marker_d131a890336e377c71992ecb34d9128a.setIcon(icon_d5a0c57035486c12784e7cb69e0e6756);
+            marker_2a50b2098308906f8c06a0caf22dc481.setIcon(icon_68cbca6a0cb4873a790e63b94030c394);
         
     
-        var popup_7b400da594debe6e10936bab15a13300 = L.popup({"maxWidth": "100%"});
+        var popup_e25b2501b2b2a307e7c5ed1961300d55 = L.popup({"maxWidth": "100%"});
 
         
             
-                var html_b2fe827ffd82ebffa8c793a02f25c4f7 = $(`<div id="html_b2fe827ffd82ebffa8c793a02f25c4f7" style="width: 100.0%; height: 100.0%;">🚀 TRUCK 0 Start</div>`)[0];
-                popup_7b400da594debe6e10936bab15a13300.setContent(html_b2fe827ffd82ebffa8c793a02f25c4f7);
+                var html_2d9b8a5d3a683da9a0b317694ef67290 = $(`<div id="html_2d9b8a5d3a683da9a0b317694ef67290" style="width: 100.0%; height: 100.0%;">🚀 TRUCK 0 Start</div>`)[0];
+                popup_e25b2501b2b2a307e7c5ed1961300d55.setContent(html_2d9b8a5d3a683da9a0b317694ef67290);
             
         
 
-        marker_d131a890336e377c71992ecb34d9128a.bindPopup(popup_7b400da594debe6e10936bab15a13300)
+        marker_2a50b2098308906f8c06a0caf22dc481.bindPopup(popup_e25b2501b2b2a307e7c5ed1961300d55)
         ;
 
         
     
     
-            var marker_c4ef2dcd191f6d221232116f29d92441 = L.marker(
+            var marker_90d078f95fed86596f172c1d0646731e = L.marker(
                 [50.41394, -105.5362],
                 {}
-            ).addTo(map_7e8143e5ec53ed20d52110018366933a);
+            ).addTo(map_537f75a488344de131d3521768a45a03);
         
     
-            var icon_f7dc9d456463a20f7c3cff8d5ba993d0 = L.AwesomeMarkers.icon(
+            var icon_89fce80afed7ee445fed68f308ebe9cf = L.AwesomeMarkers.icon(
                 {"extraClasses": "fa-rotate-0", "icon": "flag", "iconColor": "white", "markerColor": "blue", "prefix": "glyphicon"}
             );
-            marker_c4ef2dcd191f6d221232116f29d92441.setIcon(icon_f7dc9d456463a20f7c3cff8d5ba993d0);
+            marker_90d078f95fed86596f172c1d0646731e.setIcon(icon_89fce80afed7ee445fed68f308ebe9cf);
         
     
-        var popup_2f7f01a6540a36ecaf8b8ef661d4c79b = L.popup({"maxWidth": "100%"});
+        var popup_ba96184a7dde333ac7fb0ffed7e9cc4a = L.popup({"maxWidth": "100%"});
 
         
             
-                var html_2707e9bcacc3e6d88757472f927f6257 = $(`<div id="html_2707e9bcacc3e6d88757472f927f6257" style="width: 100.0%; height: 100.0%;">🏁 TRUCK 0 End</div>`)[0];
-                popup_2f7f01a6540a36ecaf8b8ef661d4c79b.setContent(html_2707e9bcacc3e6d88757472f927f6257);
+                var html_b2c6b90f782157a13bcc5a2c93fe5aa2 = $(`<div id="html_b2c6b90f782157a13bcc5a2c93fe5aa2" style="width: 100.0%; height: 100.0%;">🏁 TRUCK 0 End</div>`)[0];
+                popup_ba96184a7dde333ac7fb0ffed7e9cc4a.setContent(html_b2c6b90f782157a13bcc5a2c93fe5aa2);
             
         
 
-        marker_c4ef2dcd191f6d221232116f29d92441.bindPopup(popup_2f7f01a6540a36ecaf8b8ef661d4c79b)
+        marker_90d078f95fed86596f172c1d0646731e.bindPopup(popup_ba96184a7dde333ac7fb0ffed7e9cc4a)
         ;
 
         
     
     
-            var circle_207f95e8ccc09c450dceec91384e2ba9 = L.circle(
+            var circle_548b39b85f7671e32d592bc2c44f4c86 = L.circle(
                 [50.32756, -105.5445],
                 {"bubblingMouseEvents": true, "color": "cyan", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "cyan", "fillOpacity": 0.5, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 40, "stroke": true, "weight": 3}
-            ).addTo(map_7e8143e5ec53ed20d52110018366933a);
+            ).addTo(map_537f75a488344de131d3521768a45a03);
         
     
-            var marker_65c33e25fd9990c9ab4eba018e348138 = L.marker(
+            var marker_3179e22eea1d676db6f4f6f658f07729 = L.marker(
                 [50.32756, -105.5445],
                 {}
-            ).addTo(map_7e8143e5ec53ed20d52110018366933a);
+            ).addTo(map_537f75a488344de131d3521768a45a03);
         
     
-            var div_icon_f601198788ab18e0fb77737adb4064db = L.divIcon({"className": "empty", "html": "\n                \u003cdiv class=\"visit-marker truck-truck-0\" style=\"\n                    background-color: cyan;\n                    color: white;\n                    font-size: 14pt;\n                    font-weight: bold;\n                    border-radius: 12px;\n                    padding: 4px 10px;\n                    text-align: center;\n                    box-shadow: 1px 1px 3px black;\n                    transform: translate(-50%, -50%);\n                    transition: transform 0.2s ease;\n                \"\u003e\u00d71\u003c/div\u003e\n                "});
-            marker_65c33e25fd9990c9ab4eba018e348138.setIcon(div_icon_f601198788ab18e0fb77737adb4064db);
+            var div_icon_609e466a308340eb700f559f9b56fab8 = L.divIcon({"className": "empty", "html": "\n                \u003cdiv class=\"visit-marker truck-truck-0\" style=\"\n                    background-color: cyan;\n                    color: white;\n                    font-size: 14pt;\n                    font-weight: bold;\n                    border-radius: 12px;\n                    padding: 4px 10px;\n                    text-align: center;\n                    box-shadow: 1px 1px 3px black;\n                    transform: translate(-50%, -50%);\n                    transition: transform 0.2s ease;\n                \"\u003e\u00d71\u003c/div\u003e\n                "});
+            marker_3179e22eea1d676db6f4f6f658f07729.setIcon(div_icon_609e466a308340eb700f559f9b56fab8);
         
     
-        var popup_3dc4b838cacd8567aff8960aa1891b75 = L.popup({"maxWidth": 400});
+        var popup_0981b222d25f903a78c732ff9e447c25 = L.popup({"maxWidth": 400});
 
         
             
-                var i_frame_282a16fbfd4b5a21805bc1a3e71a8433 = $(`<iframe src="data:text/html;charset=utf-8;base64,CiAgICA8ZGl2IHN0eWxlPSdmb250LWZhbWlseTpBcmlhbDsgZm9udC1zaXplOjE0cHg7Jz48Yj7wn5ONIE1vb3NlIEphdyBOby4gMTYxLCBTYXNrYXRjaGV3YW4sIFM2SCA1VjIsIENhbmFkYTwvYj48YnI+PGI+VHJ1Y2s6PC9iPiBUUlVDSyAwPGJyPjxiPlZpc2l0czo8L2I+IDE8YnI+PGJyPgogICAgICAgICAgICAgICAgICAgIDxkZXRhaWxzPgogICAgICAgICAgICAgICAgICAgICAgICA8c3VtbWFyeT7wn5WRIDIwMjUtMDYtMzAgMTI6MTI6MzY8L3N1bW1hcnk+CiAgICAgICAgICAgICAgICAgICAgICAgIDx1bD4KICAgICAgICAgICAgICAgICAgICAgICAgICAgIDxsaT48Yj5FbmQ6PC9iPiAyMDI1LTA2LTMwIDEyOjE3OjE0PC9saT4KICAgICAgICAgICAgICAgICAgICAgICAgICAgIDxsaT48Yj5EdXJhdGlvbjo8L2I+IDQuNjcgbWluPC9saT4KICAgICAgICAgICAgICAgICAgICAgICAgICAgIDxsaT48YSBocmVmPSJodHRwczovL21hcHMuZ29vZ2xlLmNvbS8/cT01MC4zMjc1NiwtMTA1LjU0NDUiIHRhcmdldD0iX2JsYW5rIj7wn5SXIE1hcDwvYT48L2xpPgogICAgICAgICAgICAgICAgICAgICAgICA8L3VsPgogICAgICAgICAgICAgICAgICAgIDwvZGV0YWlscz48YnI+CiAgICAgICAgICAgICAgICAgICAgPC9kaXY+" width="360" style="border:none !important;" height="250"></iframe>`)[0];
-                popup_3dc4b838cacd8567aff8960aa1891b75.setContent(i_frame_282a16fbfd4b5a21805bc1a3e71a8433);
+                var i_frame_977a70a8618bed9f32c162e9f762826a = $(`<iframe src="data:text/html;charset=utf-8;base64,CiAgICA8ZGl2IHN0eWxlPSdmb250LWZhbWlseTpBcmlhbDsgZm9udC1zaXplOjE0cHg7Jz48Yj7wn5ONIE1vb3NlIEphdyBOby4gMTYxLCBTYXNrYXRjaGV3YW4sIFM2SCA1VjIsIENhbmFkYTwvYj48YnI+PGI+VHJ1Y2s6PC9iPiBUUlVDSyAwPGJyPjxiPlZpc2l0czo8L2I+IDE8YnI+PGJyPgogICAgICAgICAgICAgICAgICAgIDxkZXRhaWxzPgogICAgICAgICAgICAgICAgICAgICAgICA8c3VtbWFyeT7wn5WRIDIwMjUtMDYtMzAgMTI6MTI6MzY8L3N1bW1hcnk+CiAgICAgICAgICAgICAgICAgICAgICAgIDx1bD4KICAgICAgICAgICAgICAgICAgICAgICAgICAgIDxsaT48Yj5FbmQ6PC9iPiAyMDI1LTA2LTMwIDEyOjE3OjE0PC9saT4KICAgICAgICAgICAgICAgICAgICAgICAgICAgIDxsaT48Yj5EdXJhdGlvbjo8L2I+IDQuNjcgbWluPC9saT4KICAgICAgICAgICAgICAgICAgICAgICAgICAgIDxsaT48YSBocmVmPSJodHRwczovL21hcHMuZ29vZ2xlLmNvbS8/cT01MC4zMjc1NiwtMTA1LjU0NDUiIHRhcmdldD0iX2JsYW5rIj7wn5SXIE1hcDwvYT48L2xpPgogICAgICAgICAgICAgICAgICAgICAgICA8L3VsPgogICAgICAgICAgICAgICAgICAgIDwvZGV0YWlscz48YnI+CiAgICAgICAgICAgICAgICAgICAgPC9kaXY+" width="360" style="border:none !important;" height="250"></iframe>`)[0];
+                popup_0981b222d25f903a78c732ff9e447c25.setContent(i_frame_977a70a8618bed9f32c162e9f762826a);
             
         
 
-        marker_65c33e25fd9990c9ab4eba018e348138.bindPopup(popup_3dc4b838cacd8567aff8960aa1891b75)
+        marker_3179e22eea1d676db6f4f6f658f07729.bindPopup(popup_0981b222d25f903a78c732ff9e447c25)
         ;
 
         
     
     
-            var circle_5d815df9d072f5ae6c84d08711e03fc1 = L.circle(
+            var circle_85c685786e1ff4774513194a845e1b61 = L.circle(
                 [50.33851, -105.546],
                 {"bubblingMouseEvents": true, "color": "cyan", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "cyan", "fillOpacity": 0.5, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 40, "stroke": true, "weight": 3}
-            ).addTo(map_7e8143e5ec53ed20d52110018366933a);
+            ).addTo(map_537f75a488344de131d3521768a45a03);
         
     
-            var marker_fa174c2592bb9bf8322d849ad8af038b = L.marker(
+            var marker_692ac8d6b8ad5a1abb92a14ddf274a17 = L.marker(
                 [50.33851, -105.546],
                 {}
-            ).addTo(map_7e8143e5ec53ed20d52110018366933a);
+            ).addTo(map_537f75a488344de131d3521768a45a03);
         
     
-            var div_icon_96e4c0ea75bd25b000ed91e06f5e3244 = L.divIcon({"className": "empty", "html": "\n                \u003cdiv class=\"visit-marker truck-truck-0\" style=\"\n                    background-color: cyan;\n                    color: white;\n                    font-size: 14pt;\n                    font-weight: bold;\n                    border-radius: 12px;\n                    padding: 4px 10px;\n                    text-align: center;\n                    box-shadow: 1px 1px 3px black;\n                    transform: translate(-50%, -50%);\n                    transition: transform 0.2s ease;\n                \"\u003e\u00d71\u003c/div\u003e\n                "});
-            marker_fa174c2592bb9bf8322d849ad8af038b.setIcon(div_icon_96e4c0ea75bd25b000ed91e06f5e3244);
+            var div_icon_360a72c08e1ede495797a32f99961d92 = L.divIcon({"className": "empty", "html": "\n                \u003cdiv class=\"visit-marker truck-truck-0\" style=\"\n                    background-color: cyan;\n                    color: white;\n                    font-size: 14pt;\n                    font-weight: bold;\n                    border-radius: 12px;\n                    padding: 4px 10px;\n                    text-align: center;\n                    box-shadow: 1px 1px 3px black;\n                    transform: translate(-50%, -50%);\n                    transition: transform 0.2s ease;\n                \"\u003e\u00d71\u003c/div\u003e\n                "});
+            marker_692ac8d6b8ad5a1abb92a14ddf274a17.setIcon(div_icon_360a72c08e1ede495797a32f99961d92);
         
     
-        var popup_770f3a7d316166c48d8eecc6746c41f9 = L.popup({"maxWidth": 400});
+        var popup_e3e8729cd39d9aa5dc29ea07c8cacc21 = L.popup({"maxWidth": 400});
 
         
             
-                var i_frame_c7dae3d676b99df24608b091d0dd19ab = $(`<iframe src="data:text/html;charset=utf-8;base64,CiAgICA8ZGl2IHN0eWxlPSdmb250LWZhbWlseTpBcmlhbDsgZm9udC1zaXplOjE0cHg7Jz48Yj7wn5ONIDl0aCBBdmVudWUgU291dGh3ZXN0LCBCdXNoZWxsIFBhcmssIE1vb3NlIEphdyBOby4gMTYxLCBTYXNrYXRjaGV3YW4sIFM2SCA1VzMsIENhbmFkYTwvYj48YnI+PGI+VHJ1Y2s6PC9iPiBUUlVDSyAwPGJyPjxiPlZpc2l0czo8L2I+IDE8YnI+PGJyPgogICAgICAgICAgICAgICAgICAgIDxkZXRhaWxzPgogICAgICAgICAgICAgICAgICAgICAgICA8c3VtbWFyeT7wn5WRIDIwMjUtMDYtMzAgMTI6MjY6MTA8L3N1bW1hcnk+CiAgICAgICAgICAgICAgICAgICAgICAgIDx1bD4KICAgICAgICAgICAgICAgICAgICAgICAgICAgIDxsaT48Yj5FbmQ6PC9iPiAyMDI1LTA2LTMwIDEyOjMzOjUxPC9saT4KICAgICAgICAgICAgICAgICAgICAgICAgICAgIDxsaT48Yj5EdXJhdGlvbjo8L2I+IDcuNzAgbWluPC9saT4KICAgICAgICAgICAgICAgICAgICAgICAgICAgIDxsaT48YSBocmVmPSJodHRwczovL21hcHMuZ29vZ2xlLmNvbS8/cT01MC4zMzg1MSwtMTA1LjU0NiIgdGFyZ2V0PSJfYmxhbmsiPvCflJcgTWFwPC9hPjwvbGk+CiAgICAgICAgICAgICAgICAgICAgICAgIDwvdWw+CiAgICAgICAgICAgICAgICAgICAgPC9kZXRhaWxzPjxicj4KICAgICAgICAgICAgICAgICAgICA8L2Rpdj4=" width="360" style="border:none !important;" height="250"></iframe>`)[0];
-                popup_770f3a7d316166c48d8eecc6746c41f9.setContent(i_frame_c7dae3d676b99df24608b091d0dd19ab);
+                var i_frame_ce2aa949ce15e5ac59c6bc0524803c8c = $(`<iframe src="data:text/html;charset=utf-8;base64,CiAgICA8ZGl2IHN0eWxlPSdmb250LWZhbWlseTpBcmlhbDsgZm9udC1zaXplOjE0cHg7Jz48Yj7wn5ONIDl0aCBBdmVudWUgU291dGh3ZXN0LCBCdXNoZWxsIFBhcmssIE1vb3NlIEphdyBOby4gMTYxLCBTYXNrYXRjaGV3YW4sIFM2SCA1VzMsIENhbmFkYTwvYj48YnI+PGI+VHJ1Y2s6PC9iPiBUUlVDSyAwPGJyPjxiPlZpc2l0czo8L2I+IDE8YnI+PGJyPgogICAgICAgICAgICAgICAgICAgIDxkZXRhaWxzPgogICAgICAgICAgICAgICAgICAgICAgICA8c3VtbWFyeT7wn5WRIDIwMjUtMDYtMzAgMTI6MjY6MTA8L3N1bW1hcnk+CiAgICAgICAgICAgICAgICAgICAgICAgIDx1bD4KICAgICAgICAgICAgICAgICAgICAgICAgICAgIDxsaT48Yj5FbmQ6PC9iPiAyMDI1LTA2LTMwIDEyOjMzOjUxPC9saT4KICAgICAgICAgICAgICAgICAgICAgICAgICAgIDxsaT48Yj5EdXJhdGlvbjo8L2I+IDcuNzAgbWluPC9saT4KICAgICAgICAgICAgICAgICAgICAgICAgICAgIDxsaT48YSBocmVmPSJodHRwczovL21hcHMuZ29vZ2xlLmNvbS8/cT01MC4zMzg1MSwtMTA1LjU0NiIgdGFyZ2V0PSJfYmxhbmsiPvCflJcgTWFwPC9hPjwvbGk+CiAgICAgICAgICAgICAgICAgICAgICAgIDwvdWw+CiAgICAgICAgICAgICAgICAgICAgPC9kZXRhaWxzPjxicj4KICAgICAgICAgICAgICAgICAgICA8L2Rpdj4=" width="360" style="border:none !important;" height="250"></iframe>`)[0];
+                popup_e3e8729cd39d9aa5dc29ea07c8cacc21.setContent(i_frame_ce2aa949ce15e5ac59c6bc0524803c8c);
             
         
 
-        marker_fa174c2592bb9bf8322d849ad8af038b.bindPopup(popup_770f3a7d316166c48d8eecc6746c41f9)
+        marker_692ac8d6b8ad5a1abb92a14ddf274a17.bindPopup(popup_e3e8729cd39d9aa5dc29ea07c8cacc21)
         ;
 
         
     
     
-            var circle_7b8aae4b3e5b212494cfe269ad48ba6b = L.circle(
+            var circle_4273a2f62e8328f7cde05a8a339be4fe = L.circle(
                 [50.33824, -105.5555],
                 {"bubblingMouseEvents": true, "color": "cyan", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "cyan", "fillOpacity": 0.5, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 40, "stroke": true, "weight": 3}
-            ).addTo(map_7e8143e5ec53ed20d52110018366933a);
+            ).addTo(map_537f75a488344de131d3521768a45a03);
         
     
-            var marker_1953a0e1cab9feed24f6df97e436ab80 = L.marker(
+            var marker_54d69b1177b538632b3fcdbf15338488 = L.marker(
                 [50.33824, -105.5555],
                 {}
-            ).addTo(map_7e8143e5ec53ed20d52110018366933a);
+            ).addTo(map_537f75a488344de131d3521768a45a03);
         
     
-            var div_icon_9652bc102e5db3334d0c2b96dadfd357 = L.divIcon({"className": "empty", "html": "\n                \u003cdiv class=\"visit-marker truck-truck-0\" style=\"\n                    background-color: cyan;\n                    color: white;\n                    font-size: 14pt;\n                    font-weight: bold;\n                    border-radius: 12px;\n                    padding: 4px 10px;\n                    text-align: center;\n                    box-shadow: 1px 1px 3px black;\n                    transform: translate(-50%, -50%);\n                    transition: transform 0.2s ease;\n                \"\u003e\u00d72\u003c/div\u003e\n                "});
-            marker_1953a0e1cab9feed24f6df97e436ab80.setIcon(div_icon_9652bc102e5db3334d0c2b96dadfd357);
+            var div_icon_af5e8d6e2ec80c00c250a2256c4abd0d = L.divIcon({"className": "empty", "html": "\n                \u003cdiv class=\"visit-marker truck-truck-0\" style=\"\n                    background-color: cyan;\n                    color: white;\n                    font-size: 14pt;\n                    font-weight: bold;\n                    border-radius: 12px;\n                    padding: 4px 10px;\n                    text-align: center;\n                    box-shadow: 1px 1px 3px black;\n                    transform: translate(-50%, -50%);\n                    transition: transform 0.2s ease;\n                \"\u003e\u00d72\u003c/div\u003e\n                "});
+            marker_54d69b1177b538632b3fcdbf15338488.setIcon(div_icon_af5e8d6e2ec80c00c250a2256c4abd0d);
         
     
-        var popup_24a7e204931fc1f0333fa9bd38138ebb = L.popup({"maxWidth": 400});
+        var popup_0696b01da7cb17bbc3f038fce793f09c = L.popup({"maxWidth": 400});
 
         
             
-                var i_frame_6da4552fc8b8c1e3c6eacf690152c264 = $(`<iframe src="data:text/html;charset=utf-8;base64,CiAgICA8ZGl2IHN0eWxlPSdmb250LWZhbWlseTpBcmlhbDsgZm9udC1zaXplOjE0cHg7Jz48Yj7wn5ONIE1vb3NlIEphdyBBaXIgVmljZSBNYXJzaGFsIEMuIE0uIE1jRXdlbiBBaXJwb3J0LCBOQVRPIERyaXZlLCBCdXNoZWxsIFBhcmssIE1vb3NlIEphdyBOby4gMTYxLCBTYXNrYXRjaGV3YW4sIFM2SCA1VzMsIENhbmFkYTwvYj48YnI+PGI+VHJ1Y2s6PC9iPiBUUlVDSyAwPGJyPjxiPlZpc2l0czo8L2I+IDI8YnI+PGJyPgogICAgICAgICAgICAgICAgICAgIDxkZXRhaWxzPgogICAgICAgICAgICAgICAgICAgICAgICA8c3VtbWFyeT7wn5WRIDIwMjUtMDYtMzAgMTI6Mzc6MDE8L3N1bW1hcnk+CiAgICAgICAgICAgICAgICAgICAgICAgIDx1bD4KICAgICAgICAgICAgICAgICAgICAgICAgICAgIDxsaT48Yj5FbmQ6PC9iPiAyMDI1LTA2LTMwIDEyOjQwOjE2PC9saT4KICAgICAgICAgICAgICAgICAgICAgICAgICAgIDxsaT48Yj5EdXJhdGlvbjo8L2I+IDMuMjggbWluPC9saT4KICAgICAgICAgICAgICAgICAgICAgICAgICAgIDxsaT48YSBocmVmPSJodHRwczovL21hcHMuZ29vZ2xlLmNvbS8/cT01MC4zMzgyNCwtMTA1LjU1NTUiIHRhcmdldD0iX2JsYW5rIj7wn5SXIE1hcDwvYT48L2xpPgogICAgICAgICAgICAgICAgICAgICAgICA8L3VsPgogICAgICAgICAgICAgICAgICAgIDwvZGV0YWlscz48YnI+CiAgICAgICAgICAgICAgICAgICAgCiAgICAgICAgICAgICAgICAgICAgPGRldGFpbHM+CiAgICAgICAgICAgICAgICAgICAgICAgIDxzdW1tYXJ5PvCflZEgMjAyNS0wNi0zMCAxMzozNjowODwvc3VtbWFyeT4KICAgICAgICAgICAgICAgICAgICAgICAgPHVsPgogICAgICAgICAgICAgICAgICAgICAgICAgICAgPGxpPjxiPkVuZDo8L2I+IDIwMjUtMDYtMzAgMTM6Mzk6MjA8L2xpPgogICAgICAgICAgICAgICAgICAgICAgICAgICAgPGxpPjxiPkR1cmF0aW9uOjwvYj4gMy4yMyBtaW48L2xpPgogICAgICAgICAgICAgICAgICAgICAgICAgICAgPGxpPjxhIGhyZWY9Imh0dHBzOi8vbWFwcy5nb29nbGUuY29tLz9xPTUwLjMzNzk3LC0xMDUuNTU1NSIgdGFyZ2V0PSJfYmxhbmsiPvCflJcgTWFwPC9hPjwvbGk+CiAgICAgICAgICAgICAgICAgICAgICAgIDwvdWw+CiAgICAgICAgICAgICAgICAgICAgPC9kZXRhaWxzPjxicj4KICAgICAgICAgICAgICAgICAgICA8L2Rpdj4=" width="360" style="border:none !important;" height="250"></iframe>`)[0];
-                popup_24a7e204931fc1f0333fa9bd38138ebb.setContent(i_frame_6da4552fc8b8c1e3c6eacf690152c264);
+                var i_frame_6d3b12b787f22dd274ec16bab9e8a68f = $(`<iframe src="data:text/html;charset=utf-8;base64,CiAgICA8ZGl2IHN0eWxlPSdmb250LWZhbWlseTpBcmlhbDsgZm9udC1zaXplOjE0cHg7Jz48Yj7wn5ONIE1vb3NlIEphdyBBaXIgVmljZSBNYXJzaGFsIEMuIE0uIE1jRXdlbiBBaXJwb3J0LCBOQVRPIERyaXZlLCBCdXNoZWxsIFBhcmssIE1vb3NlIEphdyBOby4gMTYxLCBTYXNrYXRjaGV3YW4sIFM2SCA1VzMsIENhbmFkYTwvYj48YnI+PGI+VHJ1Y2s6PC9iPiBUUlVDSyAwPGJyPjxiPlZpc2l0czo8L2I+IDI8YnI+PGJyPgogICAgICAgICAgICAgICAgICAgIDxkZXRhaWxzPgogICAgICAgICAgICAgICAgICAgICAgICA8c3VtbWFyeT7wn5WRIDIwMjUtMDYtMzAgMTI6Mzc6MDE8L3N1bW1hcnk+CiAgICAgICAgICAgICAgICAgICAgICAgIDx1bD4KICAgICAgICAgICAgICAgICAgICAgICAgICAgIDxsaT48Yj5FbmQ6PC9iPiAyMDI1LTA2LTMwIDEyOjQwOjE2PC9saT4KICAgICAgICAgICAgICAgICAgICAgICAgICAgIDxsaT48Yj5EdXJhdGlvbjo8L2I+IDMuMjggbWluPC9saT4KICAgICAgICAgICAgICAgICAgICAgICAgICAgIDxsaT48YSBocmVmPSJodHRwczovL21hcHMuZ29vZ2xlLmNvbS8/cT01MC4zMzgyNCwtMTA1LjU1NTUiIHRhcmdldD0iX2JsYW5rIj7wn5SXIE1hcDwvYT48L2xpPgogICAgICAgICAgICAgICAgICAgICAgICA8L3VsPgogICAgICAgICAgICAgICAgICAgIDwvZGV0YWlscz48YnI+CiAgICAgICAgICAgICAgICAgICAgCiAgICAgICAgICAgICAgICAgICAgPGRldGFpbHM+CiAgICAgICAgICAgICAgICAgICAgICAgIDxzdW1tYXJ5PvCflZEgMjAyNS0wNi0zMCAxMzozNjowODwvc3VtbWFyeT4KICAgICAgICAgICAgICAgICAgICAgICAgPHVsPgogICAgICAgICAgICAgICAgICAgICAgICAgICAgPGxpPjxiPkVuZDo8L2I+IDIwMjUtMDYtMzAgMTM6Mzk6MjA8L2xpPgogICAgICAgICAgICAgICAgICAgICAgICAgICAgPGxpPjxiPkR1cmF0aW9uOjwvYj4gMy4yMyBtaW48L2xpPgogICAgICAgICAgICAgICAgICAgICAgICAgICAgPGxpPjxhIGhyZWY9Imh0dHBzOi8vbWFwcy5nb29nbGUuY29tLz9xPTUwLjMzNzk3LC0xMDUuNTU1NSIgdGFyZ2V0PSJfYmxhbmsiPvCflJcgTWFwPC9hPjwvbGk+CiAgICAgICAgICAgICAgICAgICAgICAgIDwvdWw+CiAgICAgICAgICAgICAgICAgICAgPC9kZXRhaWxzPjxicj4KICAgICAgICAgICAgICAgICAgICA8L2Rpdj4=" width="360" style="border:none !important;" height="250"></iframe>`)[0];
+                popup_0696b01da7cb17bbc3f038fce793f09c.setContent(i_frame_6d3b12b787f22dd274ec16bab9e8a68f);
             
         
 
-        marker_1953a0e1cab9feed24f6df97e436ab80.bindPopup(popup_24a7e204931fc1f0333fa9bd38138ebb)
+        marker_54d69b1177b538632b3fcdbf15338488.bindPopup(popup_0696b01da7cb17bbc3f038fce793f09c)
         ;
 
         
     
     
-            var circle_ef3d020d252d0f68e8e7f79d8dc94c20 = L.circle(
+            var circle_b37cf90773bad36e8164e1e79c8af78a = L.circle(
                 [50.39264, -105.5367],
                 {"bubblingMouseEvents": true, "color": "cyan", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "cyan", "fillOpacity": 0.5, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 40, "stroke": true, "weight": 3}
-            ).addTo(map_7e8143e5ec53ed20d52110018366933a);
+            ).addTo(map_537f75a488344de131d3521768a45a03);
         
     
-            var marker_4f1513fff70663c34e4fe43947874d10 = L.marker(
+            var marker_7202e1dcc8a1f209e28feba410e5e885 = L.marker(
                 [50.39264, -105.5367],
                 {}
-            ).addTo(map_7e8143e5ec53ed20d52110018366933a);
+            ).addTo(map_537f75a488344de131d3521768a45a03);
         
     
-            var div_icon_8f13f66be4ba927ccca28063ecb42b9d = L.divIcon({"className": "empty", "html": "\n                \u003cdiv class=\"visit-marker truck-truck-0\" style=\"\n                    background-color: cyan;\n                    color: white;\n                    font-size: 14pt;\n                    font-weight: bold;\n                    border-radius: 12px;\n                    padding: 4px 10px;\n                    text-align: center;\n                    box-shadow: 1px 1px 3px black;\n                    transform: translate(-50%, -50%);\n                    transition: transform 0.2s ease;\n                \"\u003e\u00d71\u003c/div\u003e\n                "});
-            marker_4f1513fff70663c34e4fe43947874d10.setIcon(div_icon_8f13f66be4ba927ccca28063ecb42b9d);
+            var div_icon_a32aa15f96bdf12fabaf954e97145fb2 = L.divIcon({"className": "empty", "html": "\n                \u003cdiv class=\"visit-marker truck-truck-0\" style=\"\n                    background-color: cyan;\n                    color: white;\n                    font-size: 14pt;\n                    font-weight: bold;\n                    border-radius: 12px;\n                    padding: 4px 10px;\n                    text-align: center;\n                    box-shadow: 1px 1px 3px black;\n                    transform: translate(-50%, -50%);\n                    transition: transform 0.2s ease;\n                \"\u003e\u00d71\u003c/div\u003e\n                "});
+            marker_7202e1dcc8a1f209e28feba410e5e885.setIcon(div_icon_a32aa15f96bdf12fabaf954e97145fb2);
         
     
-        var popup_d11ef6c4016c5d389414aa38d8c7e5c5 = L.popup({"maxWidth": 400});
+        var popup_339f1413a76918c3a8ab0618a8d7f199 = L.popup({"maxWidth": 400});
 
         
             
-                var i_frame_e2db0a371f5ec563d0bc2562faa404ac = $(`<iframe src="data:text/html;charset=utf-8;base64,CiAgICA8ZGl2IHN0eWxlPSdmb250LWZhbWlseTpBcmlhbDsgZm9udC1zaXplOjE0cHg7Jz48Yj7wn5ONIFZlcm9iYXMgRmFtaWx5IFJlc3RhdXJhbnQsIDI4LCBGYWlyZm9yZCBTdHJlZXQgV2VzdCwgT2xkIDk2LCBNb29zZSBKYXcsIFNhc2thdGNoZXdhbiwgUzZIIDNKOCwgQ2FuYWRhPC9iPjxicj48Yj5UcnVjazo8L2I+IFRSVUNLIDA8YnI+PGI+VmlzaXRzOjwvYj4gMTxicj48YnI+CiAgICAgICAgICAgICAgICAgICAgPGRldGFpbHM+CiAgICAgICAgICAgICAgICAgICAgICAgIDxzdW1tYXJ5PvCflZEgMjAyNS0wNi0zMCAxMjo1MTowNTwvc3VtbWFyeT4KICAgICAgICAgICAgICAgICAgICAgICAgPHVsPgogICAgICAgICAgICAgICAgICAgICAgICAgICAgPGxpPjxiPkVuZDo8L2I+IDIwMjUtMDYtMzAgMTI6NTE6MTY8L2xpPgogICAgICAgICAgICAgICAgICAgICAgICAgICAgPGxpPjxiPkR1cmF0aW9uOjwvYj4gMzcuODggbWluPC9saT4KICAgICAgICAgICAgICAgICAgICAgICAgICAgIDxsaT48YSBocmVmPSJodHRwczovL21hcHMuZ29vZ2xlLmNvbS8/cT01MC4zOTI2NCwtMTA1LjUzNjciIHRhcmdldD0iX2JsYW5rIj7wn5SXIE1hcDwvYT48L2xpPgogICAgICAgICAgICAgICAgICAgICAgICA8L3VsPgogICAgICAgICAgICAgICAgICAgIDwvZGV0YWlscz48YnI+CiAgICAgICAgICAgICAgICAgICAgPC9kaXY+" width="360" style="border:none !important;" height="250"></iframe>`)[0];
-                popup_d11ef6c4016c5d389414aa38d8c7e5c5.setContent(i_frame_e2db0a371f5ec563d0bc2562faa404ac);
+                var i_frame_d4afaf9d964d917ddbb4652c64aefa88 = $(`<iframe src="data:text/html;charset=utf-8;base64,CiAgICA8ZGl2IHN0eWxlPSdmb250LWZhbWlseTpBcmlhbDsgZm9udC1zaXplOjE0cHg7Jz48Yj7wn5ONIFZlcm9iYXMgRmFtaWx5IFJlc3RhdXJhbnQsIDI4LCBGYWlyZm9yZCBTdHJlZXQgV2VzdCwgT2xkIDk2LCBNb29zZSBKYXcsIFNhc2thdGNoZXdhbiwgUzZIIDNKOCwgQ2FuYWRhPC9iPjxicj48Yj5UcnVjazo8L2I+IFRSVUNLIDA8YnI+PGI+VmlzaXRzOjwvYj4gMTxicj48YnI+CiAgICAgICAgICAgICAgICAgICAgPGRldGFpbHM+CiAgICAgICAgICAgICAgICAgICAgICAgIDxzdW1tYXJ5PvCflZEgMjAyNS0wNi0zMCAxMjo1MTowNTwvc3VtbWFyeT4KICAgICAgICAgICAgICAgICAgICAgICAgPHVsPgogICAgICAgICAgICAgICAgICAgICAgICAgICAgPGxpPjxiPkVuZDo8L2I+IDIwMjUtMDYtMzAgMTI6NTE6MTY8L2xpPgogICAgICAgICAgICAgICAgICAgICAgICAgICAgPGxpPjxiPkR1cmF0aW9uOjwvYj4gMzcuODggbWluPC9saT4KICAgICAgICAgICAgICAgICAgICAgICAgICAgIDxsaT48YSBocmVmPSJodHRwczovL21hcHMuZ29vZ2xlLmNvbS8/cT01MC4zOTI2NCwtMTA1LjUzNjciIHRhcmdldD0iX2JsYW5rIj7wn5SXIE1hcDwvYT48L2xpPgogICAgICAgICAgICAgICAgICAgICAgICA8L3VsPgogICAgICAgICAgICAgICAgICAgIDwvZGV0YWlscz48YnI+CiAgICAgICAgICAgICAgICAgICAgPC9kaXY+" width="360" style="border:none !important;" height="250"></iframe>`)[0];
+                popup_339f1413a76918c3a8ab0618a8d7f199.setContent(i_frame_d4afaf9d964d917ddbb4652c64aefa88);
             
         
 
-        marker_4f1513fff70663c34e4fe43947874d10.bindPopup(popup_d11ef6c4016c5d389414aa38d8c7e5c5)
+        marker_7202e1dcc8a1f209e28feba410e5e885.bindPopup(popup_339f1413a76918c3a8ab0618a8d7f199)
         ;
 
         
     
     
-            var circle_b7554278f933d8d647b0be74f0684bdf = L.circle(
+            var circle_d1cbec5ddf38409a61400f2acccc40a6 = L.circle(
                 [50.33565, -105.5533],
                 {"bubblingMouseEvents": true, "color": "cyan", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "cyan", "fillOpacity": 0.5, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 40, "stroke": true, "weight": 3}
-            ).addTo(map_7e8143e5ec53ed20d52110018366933a);
+            ).addTo(map_537f75a488344de131d3521768a45a03);
         
     
-            var marker_69aef8bc2e5299ddb24c348480e467b9 = L.marker(
+            var marker_11a929027db93c07b38578a56336680e = L.marker(
                 [50.33565, -105.5533],
                 {}
-            ).addTo(map_7e8143e5ec53ed20d52110018366933a);
+            ).addTo(map_537f75a488344de131d3521768a45a03);
         
     
-            var div_icon_099ce4c9734e7863b7799b669ed27aa1 = L.divIcon({"className": "empty", "html": "\n                \u003cdiv class=\"visit-marker truck-truck-0\" style=\"\n                    background-color: cyan;\n                    color: white;\n                    font-size: 14pt;\n                    font-weight: bold;\n                    border-radius: 12px;\n                    padding: 4px 10px;\n                    text-align: center;\n                    box-shadow: 1px 1px 3px black;\n                    transform: translate(-50%, -50%);\n                    transition: transform 0.2s ease;\n                \"\u003e\u00d71\u003c/div\u003e\n                "});
-            marker_69aef8bc2e5299ddb24c348480e467b9.setIcon(div_icon_099ce4c9734e7863b7799b669ed27aa1);
+            var div_icon_5b6ba5e18465be2bf9f0d6ce776315e4 = L.divIcon({"className": "empty", "html": "\n                \u003cdiv class=\"visit-marker truck-truck-0\" style=\"\n                    background-color: cyan;\n                    color: white;\n                    font-size: 14pt;\n                    font-weight: bold;\n                    border-radius: 12px;\n                    padding: 4px 10px;\n                    text-align: center;\n                    box-shadow: 1px 1px 3px black;\n                    transform: translate(-50%, -50%);\n                    transition: transform 0.2s ease;\n                \"\u003e\u00d71\u003c/div\u003e\n                "});
+            marker_11a929027db93c07b38578a56336680e.setIcon(div_icon_5b6ba5e18465be2bf9f0d6ce776315e4);
         
     
-        var popup_98a6b8e83f4c9d878fd972a4d5fa4eda = L.popup({"maxWidth": 400});
+        var popup_d848990f4fcf9fe82d2d0554aea6a055 = L.popup({"maxWidth": 400});
 
         
             
-                var i_frame_93876f6752186c5616479d4d861b93f4 = $(`<iframe src="data:text/html;charset=utf-8;base64,CiAgICA8ZGl2IHN0eWxlPSdmb250LWZhbWlseTpBcmlhbDsgZm9udC1zaXplOjE0cHg7Jz48Yj7wn5ONIE1vb3NlIEphdyBBaXIgVmljZSBNYXJzaGFsIEMuIE0uIE1jRXdlbiBBaXJwb3J0LCBOQVRPIERyaXZlLCBCdXNoZWxsIFBhcmssIE1vb3NlIEphdyBOby4gMTYxLCBTYXNrYXRjaGV3YW4sIFM2SCA1VzMsIENhbmFkYTwvYj48YnI+PGI+VHJ1Y2s6PC9iPiBUUlVDSyAwPGJyPjxiPlZpc2l0czo8L2I+IDE8YnI+PGJyPgogICAgICAgICAgICAgICAgICAgIDxkZXRhaWxzPgogICAgICAgICAgICAgICAgICAgICAgICA8c3VtbWFyeT7wn5WRIDIwMjUtMDYtMzAgMTM6NDQ6MjI8L3N1bW1hcnk+CiAgICAgICAgICAgICAgICAgICAgICAgIDx1bD4KICAgICAgICAgICAgICAgICAgICAgICAgICAgIDxsaT48Yj5FbmQ6PC9iPiAyMDI1LTA2LTMwIDEzOjQ1OjU1PC9saT4KICAgICAgICAgICAgICAgICAgICAgICAgICAgIDxsaT48Yj5EdXJhdGlvbjo8L2I+IDY4LjI1IG1pbjwvbGk+CiAgICAgICAgICAgICAgICAgICAgICAgICAgICA8bGk+PGEgaHJlZj0iaHR0cHM6Ly9tYXBzLmdvb2dsZS5jb20vP3E9NTAuMzM1NjUsLTEwNS41NTMzIiB0YXJnZXQ9Il9ibGFuayI+8J+UlyBNYXA8L2E+PC9saT4KICAgICAgICAgICAgICAgICAgICAgICAgPC91bD4KICAgICAgICAgICAgICAgICAgICA8L2RldGFpbHM+PGJyPgogICAgICAgICAgICAgICAgICAgIDwvZGl2Pg==" width="360" style="border:none !important;" height="250"></iframe>`)[0];
-                popup_98a6b8e83f4c9d878fd972a4d5fa4eda.setContent(i_frame_93876f6752186c5616479d4d861b93f4);
+                var i_frame_55eab92c7da98e34b5e5c75b317b5aa0 = $(`<iframe src="data:text/html;charset=utf-8;base64,CiAgICA8ZGl2IHN0eWxlPSdmb250LWZhbWlseTpBcmlhbDsgZm9udC1zaXplOjE0cHg7Jz48Yj7wn5ONIE1vb3NlIEphdyBBaXIgVmljZSBNYXJzaGFsIEMuIE0uIE1jRXdlbiBBaXJwb3J0LCBOQVRPIERyaXZlLCBCdXNoZWxsIFBhcmssIE1vb3NlIEphdyBOby4gMTYxLCBTYXNrYXRjaGV3YW4sIFM2SCA1VzMsIENhbmFkYTwvYj48YnI+PGI+VHJ1Y2s6PC9iPiBUUlVDSyAwPGJyPjxiPlZpc2l0czo8L2I+IDE8YnI+PGJyPgogICAgICAgICAgICAgICAgICAgIDxkZXRhaWxzPgogICAgICAgICAgICAgICAgICAgICAgICA8c3VtbWFyeT7wn5WRIDIwMjUtMDYtMzAgMTM6NDQ6MjI8L3N1bW1hcnk+CiAgICAgICAgICAgICAgICAgICAgICAgIDx1bD4KICAgICAgICAgICAgICAgICAgICAgICAgICAgIDxsaT48Yj5FbmQ6PC9iPiAyMDI1LTA2LTMwIDEzOjQ1OjU1PC9saT4KICAgICAgICAgICAgICAgICAgICAgICAgICAgIDxsaT48Yj5EdXJhdGlvbjo8L2I+IDY4LjI1IG1pbjwvbGk+CiAgICAgICAgICAgICAgICAgICAgICAgICAgICA8bGk+PGEgaHJlZj0iaHR0cHM6Ly9tYXBzLmdvb2dsZS5jb20vP3E9NTAuMzM1NjUsLTEwNS41NTMzIiB0YXJnZXQ9Il9ibGFuayI+8J+UlyBNYXA8L2E+PC9saT4KICAgICAgICAgICAgICAgICAgICAgICAgPC91bD4KICAgICAgICAgICAgICAgICAgICA8L2RldGFpbHM+PGJyPgogICAgICAgICAgICAgICAgICAgIDwvZGl2Pg==" width="360" style="border:none !important;" height="250"></iframe>`)[0];
+                popup_d848990f4fcf9fe82d2d0554aea6a055.setContent(i_frame_55eab92c7da98e34b5e5c75b317b5aa0);
             
         
 
-        marker_69aef8bc2e5299ddb24c348480e467b9.bindPopup(popup_98a6b8e83f4c9d878fd972a4d5fa4eda)
+        marker_11a929027db93c07b38578a56336680e.bindPopup(popup_d848990f4fcf9fe82d2d0554aea6a055)
         ;
 
         
     
     
-            var circle_1a7788348779320f6f1804b869cb4323 = L.circle(
+            var circle_a85b507bc530790cd9a37a6c7c1bc4aa = L.circle(
                 [50.33683, -105.5506],
                 {"bubblingMouseEvents": true, "color": "cyan", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "cyan", "fillOpacity": 0.5, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 40, "stroke": true, "weight": 3}
-            ).addTo(map_7e8143e5ec53ed20d52110018366933a);
+            ).addTo(map_537f75a488344de131d3521768a45a03);
         
     
-            var marker_32f2422119a0ca8873682cd31248f6b5 = L.marker(
+            var marker_5da6111b978bbf729de79cb400a9c4e0 = L.marker(
                 [50.33683, -105.5506],
                 {}
-            ).addTo(map_7e8143e5ec53ed20d52110018366933a);
+            ).addTo(map_537f75a488344de131d3521768a45a03);
         
     
-            var div_icon_962d42ca27da721ed92025f618e40bc4 = L.divIcon({"className": "empty", "html": "\n                \u003cdiv class=\"visit-marker truck-truck-0\" style=\"\n                    background-color: cyan;\n                    color: white;\n                    font-size: 14pt;\n                    font-weight: bold;\n                    border-radius: 12px;\n                    padding: 4px 10px;\n                    text-align: center;\n                    box-shadow: 1px 1px 3px black;\n                    transform: translate(-50%, -50%);\n                    transition: transform 0.2s ease;\n                \"\u003e\u00d71\u003c/div\u003e\n                "});
-            marker_32f2422119a0ca8873682cd31248f6b5.setIcon(div_icon_962d42ca27da721ed92025f618e40bc4);
+            var div_icon_1fa1506cb29d60a90dbfec77367a6a28 = L.divIcon({"className": "empty", "html": "\n                \u003cdiv class=\"visit-marker truck-truck-0\" style=\"\n                    background-color: cyan;\n                    color: white;\n                    font-size: 14pt;\n                    font-weight: bold;\n                    border-radius: 12px;\n                    padding: 4px 10px;\n                    text-align: center;\n                    box-shadow: 1px 1px 3px black;\n                    transform: translate(-50%, -50%);\n                    transition: transform 0.2s ease;\n                \"\u003e\u00d71\u003c/div\u003e\n                "});
+            marker_5da6111b978bbf729de79cb400a9c4e0.setIcon(div_icon_1fa1506cb29d60a90dbfec77367a6a28);
         
     
-        var popup_1a22adabd849b880ef243dacc9127592 = L.popup({"maxWidth": 400});
+        var popup_125a390d083102170b9d2528caa74d27 = L.popup({"maxWidth": 400});
 
         
             
-                var i_frame_f94a2d170ba3d1526f197f7e085c89e4 = $(`<iframe src="data:text/html;charset=utf-8;base64,CiAgICA8ZGl2IHN0eWxlPSdmb250LWZhbWlseTpBcmlhbDsgZm9udC1zaXplOjE0cHg7Jz48Yj7wn5ONIDl0aCBBdmVudWUgU291dGh3ZXN0LCBCdXNoZWxsIFBhcmssIE1vb3NlIEphdyBOby4gMTYxLCBTYXNrYXRjaGV3YW4sIFM2SCA1VzMsIENhbmFkYTwvYj48YnI+PGI+VHJ1Y2s6PC9iPiBUUlVDSyAwPGJyPjxiPlZpc2l0czo8L2I+IDE8YnI+PGJyPgogICAgICAgICAgICAgICAgICAgIDxkZXRhaWxzPgogICAgICAgICAgICAgICAgICAgICAgICA8c3VtbWFyeT7wn5WRIDIwMjUtMDYtMzAgMTQ6NTI6Mzc8L3N1bW1hcnk+CiAgICAgICAgICAgICAgICAgICAgICAgIDx1bD4KICAgICAgICAgICAgICAgICAgICAgICAgICAgIDxsaT48Yj5FbmQ6PC9iPiAyMDI1LTA2LTMwIDE1OjE1OjE4PC9saT4KICAgICAgICAgICAgICAgICAgICAgICAgICAgIDxsaT48Yj5EdXJhdGlvbjo8L2I+IDIyLjcwIG1pbjwvbGk+CiAgICAgICAgICAgICAgICAgICAgICAgICAgICA8bGk+PGEgaHJlZj0iaHR0cHM6Ly9tYXBzLmdvb2dsZS5jb20vP3E9NTAuMzM2ODMsLTEwNS41NTA2IiB0YXJnZXQ9Il9ibGFuayI+8J+UlyBNYXA8L2E+PC9saT4KICAgICAgICAgICAgICAgICAgICAgICAgPC91bD4KICAgICAgICAgICAgICAgICAgICA8L2RldGFpbHM+PGJyPgogICAgICAgICAgICAgICAgICAgIDwvZGl2Pg==" width="360" style="border:none !important;" height="250"></iframe>`)[0];
-                popup_1a22adabd849b880ef243dacc9127592.setContent(i_frame_f94a2d170ba3d1526f197f7e085c89e4);
+                var i_frame_855a763fa9243b8e51234c449d95043f = $(`<iframe src="data:text/html;charset=utf-8;base64,CiAgICA8ZGl2IHN0eWxlPSdmb250LWZhbWlseTpBcmlhbDsgZm9udC1zaXplOjE0cHg7Jz48Yj7wn5ONIDl0aCBBdmVudWUgU291dGh3ZXN0LCBCdXNoZWxsIFBhcmssIE1vb3NlIEphdyBOby4gMTYxLCBTYXNrYXRjaGV3YW4sIFM2SCA1VzMsIENhbmFkYTwvYj48YnI+PGI+VHJ1Y2s6PC9iPiBUUlVDSyAwPGJyPjxiPlZpc2l0czo8L2I+IDE8YnI+PGJyPgogICAgICAgICAgICAgICAgICAgIDxkZXRhaWxzPgogICAgICAgICAgICAgICAgICAgICAgICA8c3VtbWFyeT7wn5WRIDIwMjUtMDYtMzAgMTQ6NTI6Mzc8L3N1bW1hcnk+CiAgICAgICAgICAgICAgICAgICAgICAgIDx1bD4KICAgICAgICAgICAgICAgICAgICAgICAgICAgIDxsaT48Yj5FbmQ6PC9iPiAyMDI1LTA2LTMwIDE1OjE1OjE4PC9saT4KICAgICAgICAgICAgICAgICAgICAgICAgICAgIDxsaT48Yj5EdXJhdGlvbjo8L2I+IDIyLjcwIG1pbjwvbGk+CiAgICAgICAgICAgICAgICAgICAgICAgICAgICA8bGk+PGEgaHJlZj0iaHR0cHM6Ly9tYXBzLmdvb2dsZS5jb20vP3E9NTAuMzM2ODMsLTEwNS41NTA2IiB0YXJnZXQ9Il9ibGFuayI+8J+UlyBNYXA8L2E+PC9saT4KICAgICAgICAgICAgICAgICAgICAgICAgPC91bD4KICAgICAgICAgICAgICAgICAgICA8L2RldGFpbHM+PGJyPgogICAgICAgICAgICAgICAgICAgIDwvZGl2Pg==" width="360" style="border:none !important;" height="250"></iframe>`)[0];
+                popup_125a390d083102170b9d2528caa74d27.setContent(i_frame_855a763fa9243b8e51234c449d95043f);
             
         
 
-        marker_32f2422119a0ca8873682cd31248f6b5.bindPopup(popup_1a22adabd849b880ef243dacc9127592)
+        marker_5da6111b978bbf729de79cb400a9c4e0.bindPopup(popup_125a390d083102170b9d2528caa74d27)
         ;
 
         
     
     
-            var circle_907b83c84850e5aca0b12d75b968d0f6 = L.circle(
+            var circle_6830d3755aec6fad2f8d1c4b9b61a95f = L.circle(
                 [50.33612, -105.5516],
                 {"bubblingMouseEvents": true, "color": "cyan", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "cyan", "fillOpacity": 0.5, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 40, "stroke": true, "weight": 3}
-            ).addTo(map_7e8143e5ec53ed20d52110018366933a);
+            ).addTo(map_537f75a488344de131d3521768a45a03);
         
     
-            var marker_351dc7257522e0081a6fab4428a30abf = L.marker(
+            var marker_9a299c6d256ef281513d5c243a1ce6f4 = L.marker(
                 [50.33612, -105.5516],
                 {}
-            ).addTo(map_7e8143e5ec53ed20d52110018366933a);
+            ).addTo(map_537f75a488344de131d3521768a45a03);
         
     
-            var div_icon_755c374d00a31aa2e8e64943f47691fb = L.divIcon({"className": "empty", "html": "\n                \u003cdiv class=\"visit-marker truck-truck-0\" style=\"\n                    background-color: cyan;\n                    color: white;\n                    font-size: 14pt;\n                    font-weight: bold;\n                    border-radius: 12px;\n                    padding: 4px 10px;\n                    text-align: center;\n                    box-shadow: 1px 1px 3px black;\n                    transform: translate(-50%, -50%);\n                    transition: transform 0.2s ease;\n                \"\u003e\u00d71\u003c/div\u003e\n                "});
-            marker_351dc7257522e0081a6fab4428a30abf.setIcon(div_icon_755c374d00a31aa2e8e64943f47691fb);
+            var div_icon_e7606e64ed3d523b74552851ba86d528 = L.divIcon({"className": "empty", "html": "\n                \u003cdiv class=\"visit-marker truck-truck-0\" style=\"\n                    background-color: cyan;\n                    color: white;\n                    font-size: 14pt;\n                    font-weight: bold;\n                    border-radius: 12px;\n                    padding: 4px 10px;\n                    text-align: center;\n                    box-shadow: 1px 1px 3px black;\n                    transform: translate(-50%, -50%);\n                    transition: transform 0.2s ease;\n                \"\u003e\u00d71\u003c/div\u003e\n                "});
+            marker_9a299c6d256ef281513d5c243a1ce6f4.setIcon(div_icon_e7606e64ed3d523b74552851ba86d528);
         
     
-        var popup_a4535f36db2a6ea6d459f772cf0fbc3f = L.popup({"maxWidth": 400});
+        var popup_12ca4b701ac7fd9ece12506ff5bc3697 = L.popup({"maxWidth": 400});
 
         
             
-                var i_frame_d3179fc1be873e366e6348e5e757217a = $(`<iframe src="data:text/html;charset=utf-8;base64,CiAgICA8ZGl2IHN0eWxlPSdmb250LWZhbWlseTpBcmlhbDsgZm9udC1zaXplOjE0cHg7Jz48Yj7wn5ONIE5vdmEgU2NvdGlhIFN0cmVldCwgQnVzaGVsbCBQYXJrLCBNb29zZSBKYXcgTm8uIDE2MSwgU2Fza2F0Y2hld2FuLCBTNkggNVczLCBDYW5hZGE8L2I+PGJyPjxiPlRydWNrOjwvYj4gVFJVQ0sgMDxicj48Yj5WaXNpdHM6PC9iPiAxPGJyPjxicj4KICAgICAgICAgICAgICAgICAgICA8ZGV0YWlscz4KICAgICAgICAgICAgICAgICAgICAgICAgPHN1bW1hcnk+8J+VkSAyMDI1LTA2LTMwIDE1OjE1OjE5PC9zdW1tYXJ5PgogICAgICAgICAgICAgICAgICAgICAgICA8dWw+CiAgICAgICAgICAgICAgICAgICAgICAgICAgICA8bGk+PGI+RW5kOjwvYj4gMjAyNS0wNi0zMCAxNTozOToyMTwvbGk+CiAgICAgICAgICAgICAgICAgICAgICAgICAgICA8bGk+PGI+RHVyYXRpb246PC9iPiAyNC4wNSBtaW48L2xpPgogICAgICAgICAgICAgICAgICAgICAgICAgICAgPGxpPjxhIGhyZWY9Imh0dHBzOi8vbWFwcy5nb29nbGUuY29tLz9xPTUwLjMzNjEyLC0xMDUuNTUxNiIgdGFyZ2V0PSJfYmxhbmsiPvCflJcgTWFwPC9hPjwvbGk+CiAgICAgICAgICAgICAgICAgICAgICAgIDwvdWw+CiAgICAgICAgICAgICAgICAgICAgPC9kZXRhaWxzPjxicj4KICAgICAgICAgICAgICAgICAgICA8L2Rpdj4=" width="360" style="border:none !important;" height="250"></iframe>`)[0];
-                popup_a4535f36db2a6ea6d459f772cf0fbc3f.setContent(i_frame_d3179fc1be873e366e6348e5e757217a);
+                var i_frame_3174d7c07e7b098cdb3bef1b52588195 = $(`<iframe src="data:text/html;charset=utf-8;base64,CiAgICA8ZGl2IHN0eWxlPSdmb250LWZhbWlseTpBcmlhbDsgZm9udC1zaXplOjE0cHg7Jz48Yj7wn5ONIE5vdmEgU2NvdGlhIFN0cmVldCwgQnVzaGVsbCBQYXJrLCBNb29zZSBKYXcgTm8uIDE2MSwgU2Fza2F0Y2hld2FuLCBTNkggNVczLCBDYW5hZGE8L2I+PGJyPjxiPlRydWNrOjwvYj4gVFJVQ0sgMDxicj48Yj5WaXNpdHM6PC9iPiAxPGJyPjxicj4KICAgICAgICAgICAgICAgICAgICA8ZGV0YWlscz4KICAgICAgICAgICAgICAgICAgICAgICAgPHN1bW1hcnk+8J+VkSAyMDI1LTA2LTMwIDE1OjE1OjE5PC9zdW1tYXJ5PgogICAgICAgICAgICAgICAgICAgICAgICA8dWw+CiAgICAgICAgICAgICAgICAgICAgICAgICAgICA8bGk+PGI+RW5kOjwvYj4gMjAyNS0wNi0zMCAxNTozOToyMTwvbGk+CiAgICAgICAgICAgICAgICAgICAgICAgICAgICA8bGk+PGI+RHVyYXRpb246PC9iPiAyNC4wNSBtaW48L2xpPgogICAgICAgICAgICAgICAgICAgICAgICAgICAgPGxpPjxhIGhyZWY9Imh0dHBzOi8vbWFwcy5nb29nbGUuY29tLz9xPTUwLjMzNjEyLC0xMDUuNTUxNiIgdGFyZ2V0PSJfYmxhbmsiPvCflJcgTWFwPC9hPjwvbGk+CiAgICAgICAgICAgICAgICAgICAgICAgIDwvdWw+CiAgICAgICAgICAgICAgICAgICAgPC9kZXRhaWxzPjxicj4KICAgICAgICAgICAgICAgICAgICA8L2Rpdj4=" width="360" style="border:none !important;" height="250"></iframe>`)[0];
+                popup_12ca4b701ac7fd9ece12506ff5bc3697.setContent(i_frame_3174d7c07e7b098cdb3bef1b52588195);
             
         
 
-        marker_351dc7257522e0081a6fab4428a30abf.bindPopup(popup_a4535f36db2a6ea6d459f772cf0fbc3f)
+        marker_9a299c6d256ef281513d5c243a1ce6f4.bindPopup(popup_12ca4b701ac7fd9ece12506ff5bc3697)
         ;
 
         
     
     
-            var circle_fac571ee7f2d4645dc2a7bb2ff5bdf22 = L.circle(
+            var circle_d134300609472e67ad862f9de572520b = L.circle(
                 [50.33667, -105.5561],
                 {"bubblingMouseEvents": true, "color": "cyan", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "cyan", "fillOpacity": 0.5, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 40, "stroke": true, "weight": 3}
-            ).addTo(map_7e8143e5ec53ed20d52110018366933a);
+            ).addTo(map_537f75a488344de131d3521768a45a03);
         
     
-            var marker_c57b1b20516a4494e4de8815840ae412 = L.marker(
+            var marker_f03e304fad653a7438e78c91600c17b9 = L.marker(
                 [50.33667, -105.5561],
                 {}
-            ).addTo(map_7e8143e5ec53ed20d52110018366933a);
+            ).addTo(map_537f75a488344de131d3521768a45a03);
         
     
-            var div_icon_54553ac58a0cb454a96ab350a261b099 = L.divIcon({"className": "empty", "html": "\n                \u003cdiv class=\"visit-marker truck-truck-0\" style=\"\n                    background-color: cyan;\n                    color: white;\n                    font-size: 14pt;\n                    font-weight: bold;\n                    border-radius: 12px;\n                    padding: 4px 10px;\n                    text-align: center;\n                    box-shadow: 1px 1px 3px black;\n                    transform: translate(-50%, -50%);\n                    transition: transform 0.2s ease;\n                \"\u003e\u00d71\u003c/div\u003e\n                "});
-            marker_c57b1b20516a4494e4de8815840ae412.setIcon(div_icon_54553ac58a0cb454a96ab350a261b099);
+            var div_icon_c39ee91cabd0e49da62de70fceffd76e = L.divIcon({"className": "empty", "html": "\n                \u003cdiv class=\"visit-marker truck-truck-0\" style=\"\n                    background-color: cyan;\n                    color: white;\n                    font-size: 14pt;\n                    font-weight: bold;\n                    border-radius: 12px;\n                    padding: 4px 10px;\n                    text-align: center;\n                    box-shadow: 1px 1px 3px black;\n                    transform: translate(-50%, -50%);\n                    transition: transform 0.2s ease;\n                \"\u003e\u00d71\u003c/div\u003e\n                "});
+            marker_f03e304fad653a7438e78c91600c17b9.setIcon(div_icon_c39ee91cabd0e49da62de70fceffd76e);
         
     
-        var popup_12274fcc97d7f4e53360b379162df67b = L.popup({"maxWidth": 400});
+        var popup_5e5c06f2dbabea53784e5c127804e2c0 = L.popup({"maxWidth": 400});
 
         
             
-                var i_frame_853251f302b0d0ab89fa2f7b3e51cb50 = $(`<iframe src="data:text/html;charset=utf-8;base64,CiAgICA8ZGl2IHN0eWxlPSdmb250LWZhbWlseTpBcmlhbDsgZm9udC1zaXplOjE0cHg7Jz48Yj7wn5ONIE1vb3NlIEphdyBBaXIgVmljZSBNYXJzaGFsIEMuIE0uIE1jRXdlbiBBaXJwb3J0LCBOQVRPIERyaXZlLCBCdXNoZWxsIFBhcmssIE1vb3NlIEphdyBOby4gMTYxLCBTYXNrYXRjaGV3YW4sIFM2SCA1VzMsIENhbmFkYTwvYj48YnI+PGI+VHJ1Y2s6PC9iPiBUUlVDSyAwPGJyPjxiPlZpc2l0czo8L2I+IDE8YnI+PGJyPgogICAgICAgICAgICAgICAgICAgIDxkZXRhaWxzPgogICAgICAgICAgICAgICAgICAgICAgICA8c3VtbWFyeT7wn5WRIDIwMjUtMDYtMzAgMTU6NDA6MzQ8L3N1bW1hcnk+CiAgICAgICAgICAgICAgICAgICAgICAgIDx1bD4KICAgICAgICAgICAgICAgICAgICAgICAgICAgIDxsaT48Yj5FbmQ6PC9iPiAyMDI1LTA2LTMwIDE1OjQzOjAwPC9saT4KICAgICAgICAgICAgICAgICAgICAgICAgICAgIDxsaT48Yj5EdXJhdGlvbjo8L2I+IDIuNDcgbWluPC9saT4KICAgICAgICAgICAgICAgICAgICAgICAgICAgIDxsaT48YSBocmVmPSJodHRwczovL21hcHMuZ29vZ2xlLmNvbS8/cT01MC4zMzY2NywtMTA1LjU1NjEiIHRhcmdldD0iX2JsYW5rIj7wn5SXIE1hcDwvYT48L2xpPgogICAgICAgICAgICAgICAgICAgICAgICA8L3VsPgogICAgICAgICAgICAgICAgICAgIDwvZGV0YWlscz48YnI+CiAgICAgICAgICAgICAgICAgICAgPC9kaXY+" width="360" style="border:none !important;" height="250"></iframe>`)[0];
-                popup_12274fcc97d7f4e53360b379162df67b.setContent(i_frame_853251f302b0d0ab89fa2f7b3e51cb50);
+                var i_frame_26aafe3a974416ce9153af7d242abcd9 = $(`<iframe src="data:text/html;charset=utf-8;base64,CiAgICA8ZGl2IHN0eWxlPSdmb250LWZhbWlseTpBcmlhbDsgZm9udC1zaXplOjE0cHg7Jz48Yj7wn5ONIE1vb3NlIEphdyBBaXIgVmljZSBNYXJzaGFsIEMuIE0uIE1jRXdlbiBBaXJwb3J0LCBOQVRPIERyaXZlLCBCdXNoZWxsIFBhcmssIE1vb3NlIEphdyBOby4gMTYxLCBTYXNrYXRjaGV3YW4sIFM2SCA1VzMsIENhbmFkYTwvYj48YnI+PGI+VHJ1Y2s6PC9iPiBUUlVDSyAwPGJyPjxiPlZpc2l0czo8L2I+IDE8YnI+PGJyPgogICAgICAgICAgICAgICAgICAgIDxkZXRhaWxzPgogICAgICAgICAgICAgICAgICAgICAgICA8c3VtbWFyeT7wn5WRIDIwMjUtMDYtMzAgMTU6NDA6MzQ8L3N1bW1hcnk+CiAgICAgICAgICAgICAgICAgICAgICAgIDx1bD4KICAgICAgICAgICAgICAgICAgICAgICAgICAgIDxsaT48Yj5FbmQ6PC9iPiAyMDI1LTA2LTMwIDE1OjQzOjAwPC9saT4KICAgICAgICAgICAgICAgICAgICAgICAgICAgIDxsaT48Yj5EdXJhdGlvbjo8L2I+IDIuNDcgbWluPC9saT4KICAgICAgICAgICAgICAgICAgICAgICAgICAgIDxsaT48YSBocmVmPSJodHRwczovL21hcHMuZ29vZ2xlLmNvbS8/cT01MC4zMzY2NywtMTA1LjU1NjEiIHRhcmdldD0iX2JsYW5rIj7wn5SXIE1hcDwvYT48L2xpPgogICAgICAgICAgICAgICAgICAgICAgICA8L3VsPgogICAgICAgICAgICAgICAgICAgIDwvZGV0YWlscz48YnI+CiAgICAgICAgICAgICAgICAgICAgPC9kaXY+" width="360" style="border:none !important;" height="250"></iframe>`)[0];
+                popup_5e5c06f2dbabea53784e5c127804e2c0.setContent(i_frame_26aafe3a974416ce9153af7d242abcd9);
             
         
 
-        marker_c57b1b20516a4494e4de8815840ae412.bindPopup(popup_12274fcc97d7f4e53360b379162df67b)
+        marker_f03e304fad653a7438e78c91600c17b9.bindPopup(popup_5e5c06f2dbabea53784e5c127804e2c0)
         ;
 
         
     
     
-            var circle_b7d8db4355f2d6dd87e9d1185775e3e1 = L.circle(
+            var circle_c6237085f6f901f0e2b141fcbfe7ad4b = L.circle(
                 [50.41373, -105.536],
                 {"bubblingMouseEvents": true, "color": "cyan", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "cyan", "fillOpacity": 0.5, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 40, "stroke": true, "weight": 3}
-            ).addTo(map_7e8143e5ec53ed20d52110018366933a);
+            ).addTo(map_537f75a488344de131d3521768a45a03);
         
     
-            var marker_21f40b9537bae3bee55c4f3bc4a5a8f2 = L.marker(
+            var marker_56fbab06035db77b4784b284a6eaa2bb = L.marker(
                 [50.41373, -105.536],
                 {}
-            ).addTo(map_7e8143e5ec53ed20d52110018366933a);
+            ).addTo(map_537f75a488344de131d3521768a45a03);
         
     
-            var div_icon_2feeade3a45cd7def7ff55cda281d276 = L.divIcon({"className": "empty", "html": "\n                \u003cdiv class=\"visit-marker truck-truck-0\" style=\"\n                    background-color: cyan;\n                    color: white;\n                    font-size: 14pt;\n                    font-weight: bold;\n                    border-radius: 12px;\n                    padding: 4px 10px;\n                    text-align: center;\n                    box-shadow: 1px 1px 3px black;\n                    transform: translate(-50%, -50%);\n                    transition: transform 0.2s ease;\n                \"\u003e\u00d71\u003c/div\u003e\n                "});
-            marker_21f40b9537bae3bee55c4f3bc4a5a8f2.setIcon(div_icon_2feeade3a45cd7def7ff55cda281d276);
+            var div_icon_ff355a2f2c8f4a144d0b2b5027754be1 = L.divIcon({"className": "empty", "html": "\n                \u003cdiv class=\"visit-marker truck-truck-0\" style=\"\n                    background-color: cyan;\n                    color: white;\n                    font-size: 14pt;\n                    font-weight: bold;\n                    border-radius: 12px;\n                    padding: 4px 10px;\n                    text-align: center;\n                    box-shadow: 1px 1px 3px black;\n                    transform: translate(-50%, -50%);\n                    transition: transform 0.2s ease;\n                \"\u003e\u00d71\u003c/div\u003e\n                "});
+            marker_56fbab06035db77b4784b284a6eaa2bb.setIcon(div_icon_ff355a2f2c8f4a144d0b2b5027754be1);
         
     
-        var popup_c1abc4c653b7ee0f36a9ef93caeb0ec6 = L.popup({"maxWidth": 400});
+        var popup_2cb7907df2f373ca911affe866210b7f = L.popup({"maxWidth": 400});
 
         
             
-                var i_frame_df38e0ca96b48db2799cf23d6e656a09 = $(`<iframe src="data:text/html;charset=utf-8;base64,CiAgICA8ZGl2IHN0eWxlPSdmb250LWZhbWlseTpBcmlhbDsgZm9udC1zaXplOjE0cHg7Jz48Yj7wn5ONIFN1cGVyIDgsIDE3MDgsIE1haW4gU2VydmljZSBSb2FkLCBTdW5uaW5nZGFsZSwgTW9vc2UgSmF3LCBTYXNrYXRjaGV3YW4sIFM2SiAxTDMsIENhbmFkYTwvYj48YnI+PGI+VHJ1Y2s6PC9iPiBUUlVDSyAwPGJyPjxiPlZpc2l0czo8L2I+IDE8YnI+PGJyPgogICAgICAgICAgICAgICAgICAgIDxkZXRhaWxzPgogICAgICAgICAgICAgICAgICAgICAgICA8c3VtbWFyeT7wn5WRIDIwMjUtMDYtMzAgMTU6NTc6NDE8L3N1bW1hcnk+CiAgICAgICAgICAgICAgICAgICAgICAgIDx1bD4KICAgICAgICAgICAgICAgICAgICAgICAgICAgIDxsaT48Yj5FbmQ6PC9iPiAyMDI1LTA2LTMwIDE1OjU4OjI1PC9saT4KICAgICAgICAgICAgICAgICAgICAgICAgICAgIDxsaT48Yj5EdXJhdGlvbjo8L2I+IDEwODIuOTggbWluPC9saT4KICAgICAgICAgICAgICAgICAgICAgICAgICAgIDxsaT48YSBocmVmPSJodHRwczovL21hcHMuZ29vZ2xlLmNvbS8/cT01MC40MTM3MywtMTA1LjUzNiIgdGFyZ2V0PSJfYmxhbmsiPvCflJcgTWFwPC9hPjwvbGk+CiAgICAgICAgICAgICAgICAgICAgICAgIDwvdWw+CiAgICAgICAgICAgICAgICAgICAgPC9kZXRhaWxzPjxicj4KICAgICAgICAgICAgICAgICAgICA8L2Rpdj4=" width="360" style="border:none !important;" height="250"></iframe>`)[0];
-                popup_c1abc4c653b7ee0f36a9ef93caeb0ec6.setContent(i_frame_df38e0ca96b48db2799cf23d6e656a09);
+                var i_frame_dc2606333de668235be1c4918668e346 = $(`<iframe src="data:text/html;charset=utf-8;base64,CiAgICA8ZGl2IHN0eWxlPSdmb250LWZhbWlseTpBcmlhbDsgZm9udC1zaXplOjE0cHg7Jz48Yj7wn5ONIFN1cGVyIDgsIDE3MDgsIE1haW4gU2VydmljZSBSb2FkLCBTdW5uaW5nZGFsZSwgTW9vc2UgSmF3LCBTYXNrYXRjaGV3YW4sIFM2SiAxTDMsIENhbmFkYTwvYj48YnI+PGI+VHJ1Y2s6PC9iPiBUUlVDSyAwPGJyPjxiPlZpc2l0czo8L2I+IDE8YnI+PGJyPgogICAgICAgICAgICAgICAgICAgIDxkZXRhaWxzPgogICAgICAgICAgICAgICAgICAgICAgICA8c3VtbWFyeT7wn5WRIDIwMjUtMDYtMzAgMTU6NTc6NDE8L3N1bW1hcnk+CiAgICAgICAgICAgICAgICAgICAgICAgIDx1bD4KICAgICAgICAgICAgICAgICAgICAgICAgICAgIDxsaT48Yj5FbmQ6PC9iPiAyMDI1LTA2LTMwIDE1OjU4OjI1PC9saT4KICAgICAgICAgICAgICAgICAgICAgICAgICAgIDxsaT48Yj5EdXJhdGlvbjo8L2I+IDEwODIuOTggbWluPC9saT4KICAgICAgICAgICAgICAgICAgICAgICAgICAgIDxsaT48YSBocmVmPSJodHRwczovL21hcHMuZ29vZ2xlLmNvbS8/cT01MC40MTM3MywtMTA1LjUzNiIgdGFyZ2V0PSJfYmxhbmsiPvCflJcgTWFwPC9hPjwvbGk+CiAgICAgICAgICAgICAgICAgICAgICAgIDwvdWw+CiAgICAgICAgICAgICAgICAgICAgPC9kZXRhaWxzPjxicj4KICAgICAgICAgICAgICAgICAgICA8L2Rpdj4=" width="360" style="border:none !important;" height="250"></iframe>`)[0];
+                popup_2cb7907df2f373ca911affe866210b7f.setContent(i_frame_dc2606333de668235be1c4918668e346);
             
         
 
-        marker_21f40b9537bae3bee55c4f3bc4a5a8f2.bindPopup(popup_c1abc4c653b7ee0f36a9ef93caeb0ec6)
+        marker_56fbab06035db77b4784b284a6eaa2bb.bindPopup(popup_2cb7907df2f373ca911affe866210b7f)
         ;
 
         
     
 </script>
-<!-- Updated: 2025-07-11 08:02:12 -->
+<!-- Updated: 2025-07-12 08:02:56 -->
 </html>
