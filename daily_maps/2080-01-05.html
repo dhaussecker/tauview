@@ -25,7 +25,7 @@
             <meta name="viewport" content="width=device-width,
                 initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
             <style>
-                #map_cd939ed5484287e29a86b908c4b79a47 {
+                #map_13b9be06c12fe085d98fa4148f90194c {
                     position: relative;
                     width: 100.0%;
                     height: 100.0%;
@@ -231,14 +231,14 @@
     <button id="timeline-btn" class="timeline-btn" onclick="playTimeline()">▶️ Play Timeline</button>
     
     
-            <div class="folium-map" id="map_cd939ed5484287e29a86b908c4b79a47" ></div>
+            <div class="folium-map" id="map_13b9be06c12fe085d98fa4148f90194c" ></div>
         
 </body>
 <script>
     
     
-            var map_cd939ed5484287e29a86b908c4b79a47 = L.map(
-                "map_cd939ed5484287e29a86b908c4b79a47",
+            var map_13b9be06c12fe085d98fa4148f90194c = L.map(
+                "map_13b9be06c12fe085d98fa4148f90194c",
                 {
                     center: [52.12815, -106.5879],
                     crs: L.CRS.EPSG3857,
@@ -252,36 +252,36 @@
 
         
     
-            var tile_layer_966453adeebcd5330abd30b346fcee16 = L.tileLayer(
+            var tile_layer_4a35af5059b997a74da7098843a2076e = L.tileLayer(
                 "https://server.arcgisonline.com/ArcGIS/rest/services/World_Imagery/MapServer/tile/{z}/{y}/{x}",
                 {"attribution": "Esri", "detectRetina": false, "maxZoom": 18, "minZoom": 0, "noWrap": false, "opacity": 1, "subdomains": "abc", "tms": false}
             );
         
     
-            tile_layer_966453adeebcd5330abd30b346fcee16.addTo(map_cd939ed5484287e29a86b908c4b79a47);
+            tile_layer_4a35af5059b997a74da7098843a2076e.addTo(map_13b9be06c12fe085d98fa4148f90194c);
         
     
-            var tile_layer_2e118d28e950c520aa70362760decec7 = L.tileLayer(
+            var tile_layer_ebe0c0e282cd571c9af041c255a5eb9a = L.tileLayer(
                 "https://tile.openstreetmap.org/{z}/{x}/{y}.png",
                 {"attribution": "OpenStreetMap", "detectRetina": false, "maxZoom": 18, "minZoom": 0, "noWrap": false, "opacity": 1, "subdomains": "abc", "tms": false}
             );
         
     
-            var layer_control_16fcec08bf8ad7b2ee6b77000211b20d_layers = {
+            var layer_control_d45cafb153d062bfd36a71bcf6157fab_layers = {
                 base_layers : {
-                    "Esri Satellite" : tile_layer_966453adeebcd5330abd30b346fcee16,
-                    "OpenStreetMap" : tile_layer_2e118d28e950c520aa70362760decec7,
+                    "Esri Satellite" : tile_layer_4a35af5059b997a74da7098843a2076e,
+                    "OpenStreetMap" : tile_layer_ebe0c0e282cd571c9af041c255a5eb9a,
                 },
                 overlays :  {
                 },
             };
-            let layer_control_16fcec08bf8ad7b2ee6b77000211b20d = L.control.layers(
-                layer_control_16fcec08bf8ad7b2ee6b77000211b20d_layers.base_layers,
-                layer_control_16fcec08bf8ad7b2ee6b77000211b20d_layers.overlays,
+            let layer_control_d45cafb153d062bfd36a71bcf6157fab = L.control.layers(
+                layer_control_d45cafb153d062bfd36a71bcf6157fab_layers.base_layers,
+                layer_control_d45cafb153d062bfd36a71bcf6157fab_layers.overlays,
                 {"autoZIndex": true, "collapsed": true, "position": "topright"}
-            ).addTo(map_cd939ed5484287e29a86b908c4b79a47);
+            ).addTo(map_13b9be06c12fe085d98fa4148f90194c);
 
         
 </script>
-<!-- Updated: 2025-07-27 08:04:51 -->
+<!-- Updated: 2025-07-28 08:05:35 -->
 </html>
