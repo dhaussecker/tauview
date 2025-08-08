@@ -25,7 +25,7 @@
             <meta name="viewport" content="width=device-width,
                 initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
             <style>
-                #map_f7b6675472cd71d5b6eae9358254826b {
+                #map_48f524e01e11f590400b17c386f959d0 {
                     position: relative;
                     width: 100.0%;
                     height: 100.0%;
@@ -226,14 +226,14 @@
     <button id="timeline-btn" class="timeline-btn" onclick="playTimeline()">▶️ Play Timeline</button>
     
     
-            <div class="folium-map" id="map_f7b6675472cd71d5b6eae9358254826b" ></div>
+            <div class="folium-map" id="map_48f524e01e11f590400b17c386f959d0" ></div>
         
 </body>
 <script>
     
     
-            var map_f7b6675472cd71d5b6eae9358254826b = L.map(
-                "map_f7b6675472cd71d5b6eae9358254826b",
+            var map_48f524e01e11f590400b17c386f959d0 = L.map(
+                "map_48f524e01e11f590400b17c386f959d0",
                 {
                     center: [52.19423, -106.6454],
                     crs: L.CRS.EPSG3857,
@@ -247,127 +247,127 @@
 
         
     
-            var tile_layer_845a73506afcfd685558f0187b6a110d = L.tileLayer(
+            var tile_layer_f8348368a67ca417a919acfe7cef8096 = L.tileLayer(
                 "https://server.arcgisonline.com/ArcGIS/rest/services/World_Imagery/MapServer/tile/{z}/{y}/{x}",
                 {"attribution": "Esri", "detectRetina": false, "maxZoom": 18, "minZoom": 0, "noWrap": false, "opacity": 1, "subdomains": "abc", "tms": false}
             );
         
     
-            tile_layer_845a73506afcfd685558f0187b6a110d.addTo(map_f7b6675472cd71d5b6eae9358254826b);
+            tile_layer_f8348368a67ca417a919acfe7cef8096.addTo(map_48f524e01e11f590400b17c386f959d0);
         
     
-            var tile_layer_e5689c7dda6da11dac1e3931beffad8d = L.tileLayer(
+            var tile_layer_b3547ef25fe17424fcece735eaba5407 = L.tileLayer(
                 "https://tile.openstreetmap.org/{z}/{x}/{y}.png",
                 {"attribution": "OpenStreetMap", "detectRetina": false, "maxZoom": 18, "minZoom": 0, "noWrap": false, "opacity": 1, "subdomains": "abc", "tms": false}
             );
         
     
-            var layer_control_034d23c0efc8f327fe13482f7414a340_layers = {
+            var layer_control_f764ee6b98b91171175274c4411424b0_layers = {
                 base_layers : {
-                    "Esri Satellite" : tile_layer_845a73506afcfd685558f0187b6a110d,
-                    "OpenStreetMap" : tile_layer_e5689c7dda6da11dac1e3931beffad8d,
+                    "Esri Satellite" : tile_layer_f8348368a67ca417a919acfe7cef8096,
+                    "OpenStreetMap" : tile_layer_b3547ef25fe17424fcece735eaba5407,
                 },
                 overlays :  {
                 },
             };
-            let layer_control_034d23c0efc8f327fe13482f7414a340 = L.control.layers(
-                layer_control_034d23c0efc8f327fe13482f7414a340_layers.base_layers,
-                layer_control_034d23c0efc8f327fe13482f7414a340_layers.overlays,
+            let layer_control_f764ee6b98b91171175274c4411424b0 = L.control.layers(
+                layer_control_f764ee6b98b91171175274c4411424b0_layers.base_layers,
+                layer_control_f764ee6b98b91171175274c4411424b0_layers.overlays,
                 {"autoZIndex": true, "collapsed": true, "position": "topright"}
-            ).addTo(map_f7b6675472cd71d5b6eae9358254826b);
+            ).addTo(map_48f524e01e11f590400b17c386f959d0);
 
         
     
-            ant_path_ca2f1df2c326541eec7c82bcd86e7861 = L.polyline.antPath(
+            ant_path_9b6eb9296c0f9fc2f8c5e9b2996c4660 = L.polyline.antPath(
               [[52.19423, -106.6454], [52.19405, -106.6455], [52.19372, -106.6456], [52.1934, -106.6457], [52.19301, -106.6458], [52.19278, -106.646], [52.19252, -106.6459], [52.19124, -106.6456], [52.19053, -106.6455], [52.18875, -106.6466], [52.18843, -106.6465], [52.18612, -106.6466], [52.18608, -106.6467], [52.18611, -106.6472]],
               {"bubblingMouseEvents": true, "color": "cyan", "dashArray": [10, 20], "dashOffset": null, "delay": 700, "fill": false, "fillColor": "cyan", "fillOpacity": 0.2, "fillRule": "evenodd", "hardwareAcceleration": false, "lineCap": "round", "lineJoin": "round", "noClip": false, "opacity": 0.5, "paused": false, "pulseColor": "cyan", "reverse": false, "smoothFactor": 1.0, "stroke": true, "weight": 4}
-        ).addTo(map_f7b6675472cd71d5b6eae9358254826b);
+        ).addTo(map_48f524e01e11f590400b17c386f959d0);
         
     
-            var marker_ea4eba0f32b992b1dfb07215be907672 = L.marker(
+            var marker_369cbc2924d779187fb591004ba1794b = L.marker(
                 [52.19423, -106.6454],
                 {}
-            ).addTo(map_f7b6675472cd71d5b6eae9358254826b);
+            ).addTo(map_48f524e01e11f590400b17c386f959d0);
         
     
-            var icon_fd86f8114608bb276276b032c55033d4 = L.AwesomeMarkers.icon(
+            var icon_e14d3cb90eac8296e251f68975cba2e7 = L.AwesomeMarkers.icon(
                 {"extraClasses": "fa-rotate-0", "icon": "play", "iconColor": "white", "markerColor": "green", "prefix": "glyphicon"}
             );
-            marker_ea4eba0f32b992b1dfb07215be907672.setIcon(icon_fd86f8114608bb276276b032c55033d4);
+            marker_369cbc2924d779187fb591004ba1794b.setIcon(icon_e14d3cb90eac8296e251f68975cba2e7);
         
     
-        var popup_8820ccf6912dc5e5789c494b3e122636 = L.popup({"maxWidth": "100%"});
+        var popup_a4e1bb9e114d2247c462b43106ba030e = L.popup({"maxWidth": "100%"});
 
         
             
-                var html_2eba880e1da9dcb4cfb60558d3d4f59e = $(`<div id="html_2eba880e1da9dcb4cfb60558d3d4f59e" style="width: 100.0%; height: 100.0%;">🚀 TRUCK 0 Start</div>`)[0];
-                popup_8820ccf6912dc5e5789c494b3e122636.setContent(html_2eba880e1da9dcb4cfb60558d3d4f59e);
+                var html_379d43d4568beb27bac0ef555e0459d7 = $(`<div id="html_379d43d4568beb27bac0ef555e0459d7" style="width: 100.0%; height: 100.0%;">🚀 TRUCK 0 Start</div>`)[0];
+                popup_a4e1bb9e114d2247c462b43106ba030e.setContent(html_379d43d4568beb27bac0ef555e0459d7);
             
         
 
-        marker_ea4eba0f32b992b1dfb07215be907672.bindPopup(popup_8820ccf6912dc5e5789c494b3e122636)
+        marker_369cbc2924d779187fb591004ba1794b.bindPopup(popup_a4e1bb9e114d2247c462b43106ba030e)
         ;
 
         
     
     
-            var marker_b1fdbc3c993aff93d664afbaf45292db = L.marker(
+            var marker_92ed05c37c89feb90839d85e858b429c = L.marker(
                 [52.18611, -106.6472],
                 {}
-            ).addTo(map_f7b6675472cd71d5b6eae9358254826b);
+            ).addTo(map_48f524e01e11f590400b17c386f959d0);
         
     
-            var icon_6b61b51df710bba59712a68baffa434e = L.AwesomeMarkers.icon(
+            var icon_a5d98c1d18fb96f48b37e04ae079e6d5 = L.AwesomeMarkers.icon(
                 {"extraClasses": "fa-rotate-0", "icon": "flag", "iconColor": "white", "markerColor": "blue", "prefix": "glyphicon"}
             );
-            marker_b1fdbc3c993aff93d664afbaf45292db.setIcon(icon_6b61b51df710bba59712a68baffa434e);
+            marker_92ed05c37c89feb90839d85e858b429c.setIcon(icon_a5d98c1d18fb96f48b37e04ae079e6d5);
         
     
-        var popup_4a02efd8d5c354b034a0d1b0730b4695 = L.popup({"maxWidth": "100%"});
+        var popup_2dc34401efaac654130cb639106419fa = L.popup({"maxWidth": "100%"});
 
         
             
-                var html_e5fb867bd6a7d9369a51b91adc33b2af = $(`<div id="html_e5fb867bd6a7d9369a51b91adc33b2af" style="width: 100.0%; height: 100.0%;">🏁 TRUCK 0 End</div>`)[0];
-                popup_4a02efd8d5c354b034a0d1b0730b4695.setContent(html_e5fb867bd6a7d9369a51b91adc33b2af);
+                var html_571d84f37d6283859671083c5fddaf6c = $(`<div id="html_571d84f37d6283859671083c5fddaf6c" style="width: 100.0%; height: 100.0%;">🏁 TRUCK 0 End</div>`)[0];
+                popup_2dc34401efaac654130cb639106419fa.setContent(html_571d84f37d6283859671083c5fddaf6c);
             
         
 
-        marker_b1fdbc3c993aff93d664afbaf45292db.bindPopup(popup_4a02efd8d5c354b034a0d1b0730b4695)
+        marker_92ed05c37c89feb90839d85e858b429c.bindPopup(popup_2dc34401efaac654130cb639106419fa)
         ;
 
         
     
     
-            var circle_163670b7bfc11ce04c04bc5e55c1d4c4 = L.circle(
+            var circle_8f2d21086cabb2e9d32f7a8684ec8169 = L.circle(
                 [52.18611, -106.6476],
                 {"bubblingMouseEvents": true, "color": "cyan", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "cyan", "fillOpacity": 0.5, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 40, "stroke": true, "weight": 3}
-            ).addTo(map_f7b6675472cd71d5b6eae9358254826b);
+            ).addTo(map_48f524e01e11f590400b17c386f959d0);
         
     
-            var marker_3d2af9928147eed6ae1d4fd2b99ed9cc = L.marker(
+            var marker_c5f9c82568763325b2d1ea4937c9c8f9 = L.marker(
                 [52.18611, -106.6476],
                 {}
-            ).addTo(map_f7b6675472cd71d5b6eae9358254826b);
+            ).addTo(map_48f524e01e11f590400b17c386f959d0);
         
     
-            var div_icon_0aab0bf123931d82a6c669aa6e92d0e7 = L.divIcon({"className": "empty", "html": "\n                \u003cdiv class=\"visit-marker truck-truck-0\" style=\"\n                    background-color: cyan;\n                    color: white;\n                    font-size: 14pt;\n                    font-weight: bold;\n                    border-radius: 12px;\n                    padding: 4px 10px;\n                    text-align: center;\n                    box-shadow: 1px 1px 3px black;\n                    transform: translate(-50%, -50%);\n                    transition: transform 0.2s ease;\n                \"\u003e\u00d71\u003c/div\u003e\n                "});
-            marker_3d2af9928147eed6ae1d4fd2b99ed9cc.setIcon(div_icon_0aab0bf123931d82a6c669aa6e92d0e7);
+            var div_icon_3e1a72c7825f2b6691b092c940552a0e = L.divIcon({"className": "empty", "html": "\n                \u003cdiv class=\"visit-marker truck-truck-0\" style=\"\n                    background-color: cyan;\n                    color: white;\n                    font-size: 14pt;\n                    font-weight: bold;\n                    border-radius: 12px;\n                    padding: 4px 10px;\n                    text-align: center;\n                    box-shadow: 1px 1px 3px black;\n                    transform: translate(-50%, -50%);\n                    transition: transform 0.2s ease;\n                \"\u003e\u00d71\u003c/div\u003e\n                "});
+            marker_c5f9c82568763325b2d1ea4937c9c8f9.setIcon(div_icon_3e1a72c7825f2b6691b092c940552a0e);
         
     
-        var popup_34312da07cdc866b071f3d323b2bb16b = L.popup({"maxWidth": 400});
+        var popup_92f1b74747e83c07c774ae501f0dd008 = L.popup({"maxWidth": 400});
 
         
             
-                var i_frame_6d85de9a6c55a4d06d518b64da814c3e = $(`<iframe src="data:text/html;charset=utf-8;base64,CiAgICA8ZGl2IHN0eWxlPSdmb250LWZhbWlseTpBcmlhbDsgZm9udC1zaXplOjE0cHg7Jz48Yj7wn5ONIDU5dGggU3RyZWV0IEVhc3QsIEh1ZHNvbiBCYXkgSW5kdXN0cmlhbCwgU2Fza2F0b29uLCBTYXNrYXRjaGV3YW4sIFM3SyA1WTgsIENhbmFkYTwvYj48YnI+PGI+VHJ1Y2s6PC9iPiBUUlVDSyAwPGJyPjxiPlZpc2l0czo8L2I+IDE8YnI+PGJyPgogICAgICAgICAgICAgICAgICAgIDxkZXRhaWxzPgogICAgICAgICAgICAgICAgICAgICAgICA8c3VtbWFyeT7wn5WRIDIwMjUtMDctMDIgMTQ6MDU6NTk8L3N1bW1hcnk+CiAgICAgICAgICAgICAgICAgICAgICAgIDx1bD4KICAgICAgICAgICAgICAgICAgICAgICAgICAgIDxsaT48Yj5FbmQ6PC9iPiAyMDI1LTA3LTAyIDE0OjA1OjU5PC9saT4KICAgICAgICAgICAgICAgICAgICAgICAgICAgIDxsaT48Yj5EdXJhdGlvbjo8L2I+IDExNjkuMTAgbWluPC9saT4KICAgICAgICAgICAgICAgICAgICAgICAgICAgIDxsaT48YSBocmVmPSJodHRwczovL21hcHMuZ29vZ2xlLmNvbS8/cT01Mi4xODYxMSwtMTA2LjY0NzYiIHRhcmdldD0iX2JsYW5rIj7wn5SXIE1hcDwvYT48L2xpPgogICAgICAgICAgICAgICAgICAgICAgICA8L3VsPgogICAgICAgICAgICAgICAgICAgIDwvZGV0YWlscz48YnI+CiAgICAgICAgICAgICAgICAgICAgPC9kaXY+" width="360" style="border:none !important;" height="250"></iframe>`)[0];
-                popup_34312da07cdc866b071f3d323b2bb16b.setContent(i_frame_6d85de9a6c55a4d06d518b64da814c3e);
+                var i_frame_4b7dc51397b2cea3c34a75a25ecae937 = $(`<iframe src="data:text/html;charset=utf-8;base64,CiAgICA8ZGl2IHN0eWxlPSdmb250LWZhbWlseTpBcmlhbDsgZm9udC1zaXplOjE0cHg7Jz48Yj7wn5ONIDU5dGggU3RyZWV0IEVhc3QsIEh1ZHNvbiBCYXkgSW5kdXN0cmlhbCwgU2Fza2F0b29uLCBTYXNrYXRjaGV3YW4sIFM3SyA1WTgsIENhbmFkYTwvYj48YnI+PGI+VHJ1Y2s6PC9iPiBUUlVDSyAwPGJyPjxiPlZpc2l0czo8L2I+IDE8YnI+PGJyPgogICAgICAgICAgICAgICAgICAgIDxkZXRhaWxzPgogICAgICAgICAgICAgICAgICAgICAgICA8c3VtbWFyeT7wn5WRIDIwMjUtMDctMDIgMTQ6MDU6NTk8L3N1bW1hcnk+CiAgICAgICAgICAgICAgICAgICAgICAgIDx1bD4KICAgICAgICAgICAgICAgICAgICAgICAgICAgIDxsaT48Yj5FbmQ6PC9iPiAyMDI1LTA3LTAyIDE0OjA1OjU5PC9saT4KICAgICAgICAgICAgICAgICAgICAgICAgICAgIDxsaT48Yj5EdXJhdGlvbjo8L2I+IDExNjkuMTAgbWluPC9saT4KICAgICAgICAgICAgICAgICAgICAgICAgICAgIDxsaT48YSBocmVmPSJodHRwczovL21hcHMuZ29vZ2xlLmNvbS8/cT01Mi4xODYxMSwtMTA2LjY0NzYiIHRhcmdldD0iX2JsYW5rIj7wn5SXIE1hcDwvYT48L2xpPgogICAgICAgICAgICAgICAgICAgICAgICA8L3VsPgogICAgICAgICAgICAgICAgICAgIDwvZGV0YWlscz48YnI+CiAgICAgICAgICAgICAgICAgICAgPC9kaXY+" width="360" style="border:none !important;" height="250"></iframe>`)[0];
+                popup_92f1b74747e83c07c774ae501f0dd008.setContent(i_frame_4b7dc51397b2cea3c34a75a25ecae937);
             
         
 
-        marker_3d2af9928147eed6ae1d4fd2b99ed9cc.bindPopup(popup_34312da07cdc866b071f3d323b2bb16b)
+        marker_c5f9c82568763325b2d1ea4937c9c8f9.bindPopup(popup_92f1b74747e83c07c774ae501f0dd008)
         ;
 
         
     
 </script>
-<!-- Updated: 2025-08-07 08:06:59 -->
+<!-- Updated: 2025-08-08 08:07:21 -->
 </html>
